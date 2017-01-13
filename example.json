@@ -1,32 +1,40 @@
 [
   {
-    "@id": "_:N85ac2ec826d54bab922203c6251e9d4c",
-    "http://chs.harvard.edu/xmlns/cts/groupname": [
+    "@id": "_:N451b01023ae344eab795cb8028a82c58"
+  },
+  {
+    "@id": "_:N174e65e45f8f4a4cac4494743abd45c1",
+    "http://chs.harvard.edu/xmlns/cts/title": [
       {
         "@language": "eng",
-        "@value": "Martial"
+        "@value": "Letters from the Black Sea"
+      },
+      {
+        "@language": "fre",
+        "@value": "Pontiques"
       },
       {
         "@language": "lat",
-        "@value": "Martialis"
+        "@value": "Ex Ponto"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
+        "@language": "fre",
+        "@value": "Pontiques"
+      },
+      {
         "@language": "lat",
-        "@value": "Martialis"
+        "@value": "Ex Ponto"
       },
       {
         "@language": "eng",
-        "@value": "Martial"
+        "@value": "Letters from the Black Sea"
       }
     ]
   },
   {
-    "@id": "_:N3136fb34404442f3b9a3a264b6bd88bb"
-  },
-  {
-    "@id": "urn:cts:latinLit:phi1294.phi002",
+    "@id": "urn:cts:greekLit:tlg0003.tlg001",
     "@type": [
       "http://chs.harvard.edu/xmlns/cts/CTSCollection"
     ],
@@ -35,19 +43,24 @@
         "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
       }
     ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "grc"
+      }
+    ],
     "http://w3id.org/dts-ontology/capabilities": [
       {
-        "@id": "_:Ne3c9c2d9c8dc47c7a712f43dfd866d3c"
+        "@id": "_:Na7cf6a59ed40446598d49d2ed502e80d"
       }
     ],
     "http://w3id.org/dts-ontology/child": [
       {
-        "@id": "urn:cts:latinLit:phi1294.phi002.perseus-lat2"
+        "@id": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2"
       }
     ],
     "http://w3id.org/dts-ontology/metadata": [
       {
-        "@id": "_:N7e09fb17aaa04ded987b6bf995094198"
+        "@id": "_:N8dd0882e247f435487429b06f499d104"
       }
     ],
     "http://w3id.org/dts-ontology/model": [
@@ -57,31 +70,40 @@
     ],
     "http://w3id.org/dts-ontology/parent": [
       {
-        "@id": "urn:cts:latinLit:phi1294"
-      }
-    ],
-    "http://w3id.org/dts-ontology/parents": [
-      {
-        "@id": "_:N91d5e393a1fa4eff80f2893f64d55148"
+        "@id": "urn:cts:greekLit:tlg0003"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
+        "@language": "en",
+        "@value": "The Peloponnesian War"
+      },
+      {
         "@language": "eng",
-        "@value": "Epigrams"
-      },
-      {
-        "@language": "lat",
-        "@value": "Epigrammata"
-      },
-      {
-        "@language": "fre",
-        "@value": "Epigrammes"
+        "@value": "The Peloponnesian War"
       }
     ]
   },
   {
-    "@id": "urn:cts:latinLit:phi1294",
+    "@id": "_:N32f700f435624e25a822957b34de33ae"
+  },
+  {
+    "@id": "_:N7704ed0517e0468e8fc29a48a5680842",
+    "http://chs.harvard.edu/xmlns/cts/title": [
+      {
+        "@language": "eng",
+        "@value": "Satires"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Satires"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi001.perseus-lat2",
     "@type": [
       "http://chs.harvard.edu/xmlns/cts/CTSCollection"
     ],
@@ -90,76 +112,1206 @@
         "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
       }
     ],
-    "http://w3id.org/dts-ontology/capabilities": [
+    "http://purl.org/dc/elements/1.1/language": [
       {
-        "@id": "_:N530099cbd7734345ae8858e5fee1ba14"
+        "@value": "lat"
       }
     ],
-    "http://w3id.org/dts-ontology/child": [
+    "http://w3id.org/dts-ontology/capabilities": [
       {
-        "@id": "urn:cts:latinLit:phi1294.phi002"
+        "@id": "_:Nd5219ad8ae6a474ab356dc013ac75b48"
       }
     ],
     "http://w3id.org/dts-ontology/metadata": [
       {
-        "@id": "_:N85ac2ec826d54bab922203c6251e9d4c"
+        "@id": "_:N14af7169447847988482236330ca6ef6"
       }
     ],
     "http://w3id.org/dts-ontology/model": [
       {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
       }
     ],
     "http://w3id.org/dts-ontology/parent": [
       {
-        "@id": "superFreak"
-      }
-    ],
-    "http://w3id.org/dts-ontology/parents": [
-      {
-        "@id": "_:Nc9bbea02d51c4d0695965ade1b4ebd72"
+        "@id": "urn:cts:latinLit:phi0959.phi001"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "eng",
-        "@value": "Martial"
-      },
-      {
-        "@language": "lat",
-        "@value": "Martialis"
+        "@value": "Amores"
       }
     ]
   },
   {
-    "@id": "_:N2b6122f7a7f046b8abc97c009812bd43"
-  },
-  {
-    "@id": "_:N41619b12caf34df5a9e00277653b3d2d",
-    "http://chs.harvard.edu/xmlns/cts/description": [
+    "@id": "urn:cts:latinLit:phi0959.phi006.perseus-lat1",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
       {
-        "@language": "eng",
-        "@value": "Some wonderful edition"
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
       }
     ],
-    "http://chs.harvard.edu/xmlns/cts/label": [
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N10cd52841f594f6c83963caeb478cd48"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:Nf5c4276ecb094743b34c17745bc1b751"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi006"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "eng",
-        "@value": "Epigrams [Ed 1978]"
+        "@value": "Metamorphoses"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi1294.phi002.perseus-lat2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N4a0e4d41c9c04d93824f2a22a20ee011"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:Na70dec7e5611408bac5b14c2664cbbe9"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi1294.phi002"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Epigrammata Label"
+      },
+      {
+        "@language": "fre",
+        "@value": "Epigrammes Label"
+      }
+    ]
+  },
+  {
+    "@id": "_:N68c93e62bd2f4ca4af5cf11c33a9ed23",
+    "http://chs.harvard.edu/xmlns/cts/title": [
+      {
+        "@language": "fre",
+        "@value": "L'Art d'Aimer"
+      },
+      {
+        "@language": "lat",
+        "@value": "Ars Amatoria"
+      },
+      {
+        "@language": "eng",
+        "@value": "Art of Love"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "eng",
-        "@value": "Epigrams [Ed 1978]"
+        "@value": "Art of Love"
+      },
+      {
+        "@language": "fre",
+        "@value": "L'Art d'Aimer"
+      },
+      {
+        "@language": "lat",
+        "@value": "Ars Amatoria"
       }
     ]
   },
   {
-    "@id": "_:Ne3c9c2d9c8dc47c7a712f43dfd866d3c"
+    "@id": "urn:cts:latinLit:phi0959.phi002",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N451b01023ae344eab795cb8028a82c58"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi002.perseus-lat2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N855db6c30feb404e8d484ed3d3b0fb09"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Epistulae"
+      }
+    ]
   },
   {
-    "@id": "urn:cts:latinLit:phi1294.phi002.perseus-lat2",
+    "@id": "_:N14af7169447847988482236330ca6ef6",
+    "http://chs.harvard.edu/xmlns/cts/description": [
+      {
+        "@language": "eng",
+        "@value": "\n                    Amores, Epistulae, Medicamina faciei femineae, Ars amatoria, Remedia\n                            amoris, R. Ehwald, edidit ex Rudolphi Merkelii recognitione, Leipzig, B. G. Teubner, 1907\n                "
+      }
+    ],
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Amores"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Amores"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne6a0fa09be07417eb12bce6ce9274c8b",
+    "http://chs.harvard.edu/xmlns/cts/title": [
+      {
+        "@language": "eng",
+        "@value": "Ibis"
+      },
+      {
+        "@language": "fre",
+        "@value": "Ibis"
+      },
+      {
+        "@language": "lat",
+        "@value": "Ibis"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "fre",
+        "@value": "Ibis"
+      },
+      {
+        "@language": "eng",
+        "@value": "Ibis"
+      },
+      {
+        "@language": "lat",
+        "@value": "Ibis"
+      }
+    ]
+  },
+  {
+    "@id": "_:N1ce197f650a44120a13e5b61db0f6776"
+  },
+  {
+    "@id": "_:Nbeda8771076f4f0e9cf6dc7657a151ca"
+  },
+  {
+    "@id": "_:N99b39defb78643aa8b725bd8463fde88"
+  },
+  {
+    "@id": "_:Ncb587b9aaad44997bdfc1de0b9838d73"
+  },
+  {
+    "@id": "_:N340caf54551a40f9ab9e7703cb4373d4"
+  },
+  {
+    "@id": "_:N8e428e15280844f181bc2d4a1f9783f3"
+  },
+  {
+    "@id": "_:N855db6c30feb404e8d484ed3d3b0fb09",
+    "http://chs.harvard.edu/xmlns/cts/title": [
+      {
+        "@language": "eng",
+        "@value": "Epistulae"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Epistulae"
+      }
+    ]
+  },
+  {
+    "@id": "_:Na638a95aa15441e9ab737c008328ea38",
+    "http://chs.harvard.edu/xmlns/cts/title": [
+      {
+        "@language": "eng",
+        "@value": "Art of Beauty"
+      },
+      {
+        "@language": "fre",
+        "@value": "Les Fards ou Soins du visage"
+      },
+      {
+        "@language": "lat",
+        "@value": "Medicamina faciei femineae"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Art of Beauty"
+      },
+      {
+        "@language": "lat",
+        "@value": "Medicamina faciei femineae"
+      },
+      {
+        "@language": "fre",
+        "@value": "Les Fards ou Soins du visage"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc8480c2f1d92400dbb31f1a65dbd90a6"
+  },
+  {
+    "@id": "_:N37b35bbd9189429d94fe8c96419d3909"
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi006",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:Nfc926d932b16404dba46bf5f2ac8b0cd"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi006.perseus-lat2"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi006.perseus-lat1"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N82cd125d72b84eec98063c75d8d2b099"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Metamorphoses"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi001",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N64b5d66b78c0408fa47e7cd29a36830f"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi001.perseus-lat2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N0e1cdc07db5e47818af4053a7704f00f"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Amores"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi010",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N226b825320f841f58227af45a9fdd7a0"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi010.perseus-lat2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:Ne6a0fa09be07417eb12bce6ce9274c8b"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "lat",
+        "@value": "Ibis"
+      },
+      {
+        "@language": "fre",
+        "@value": "Ibis"
+      },
+      {
+        "@language": "eng",
+        "@value": "Ibis"
+      }
+    ]
+  },
+  {
+    "@id": "_:N4a1e9955e1694c77917a167d370bd4f9",
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Epistulae"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Epistulae"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncf412fd4fd354ac8b1101b328a09a807"
+  },
+  {
+    "@id": "_:N8fa967d6418149e08bc9d259bbf42652",
+    "http://chs.harvard.edu/xmlns/cts/title": [
+      {
+        "@language": "eng",
+        "@value": "Remedy of Love"
+      },
+      {
+        "@language": "lat",
+        "@value": "Remedia amoris"
+      },
+      {
+        "@language": "fre",
+        "@value": "Remède à l'amoru"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "fre",
+        "@value": "Remède à l'amoru"
+      },
+      {
+        "@language": "eng",
+        "@value": "Remedy of Love"
+      },
+      {
+        "@language": "lat",
+        "@value": "Remedia amoris"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi007",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N43fc41df18ee47f595abddb685ad9ddc"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi007.perseus-lat2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N8100891353424cd0b3f8130264d87715"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "lat",
+        "@value": "Fasti"
+      },
+      {
+        "@language": "eng",
+        "@value": "Book of Days"
+      },
+      {
+        "@language": "fre",
+        "@value": "Fastes"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi010.perseus-lat2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N1ce197f650a44120a13e5b61db0f6776"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N56ce48bf279c4e6681d525fd2526537d"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi010"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Ibis"
+      }
+    ]
+  },
+  {
+    "@id": "_:N56ce48bf279c4e6681d525fd2526537d",
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Ibis"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Ibis"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nf5c4276ecb094743b34c17745bc1b751",
+    "http://chs.harvard.edu/xmlns/cts/description": [
+      {
+        "@language": "eng",
+        "@value": "Perseus:bib:oclc,32116154, Ovid. Metamorphoses. Hugo Magnus.\n          Gotha (Germany). Friedr. Andr. Perthes. 1892."
+      }
+    ],
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Metamorphoses"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Metamorphoses"
+      }
+    ]
+  },
+  {
+    "@id": "_:Naa2ac079eb4c433789c645166d24b065",
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Ex Ponto"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Ex Ponto"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi002.perseus-lat2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:Nc90d1f34b8394c2faa4b678f914e0455"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N4a1e9955e1694c77917a167d370bd4f9"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi002"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Epistulae"
+      }
+    ]
+  },
+  {
+    "@id": "_:N891f992072744a34bb140d121834bdc2",
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Book of Days"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Book of Days"
+      }
+    ]
+  },
+  {
+    "@id": "_:N64b5d66b78c0408fa47e7cd29a36830f"
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi006.perseus-lat2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N43cf807555a449268cb0c843ac0c0781"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N236baf74621e4df5852f9fb26921efbf"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi006"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Metamorphoses"
+      }
+    ]
+  },
+  {
+    "@id": "_:N9e9558af83d545b48edfecd8c401984b",
+    "http://chs.harvard.edu/xmlns/cts/description": [
+      {
+        "@language": "eng",
+        "@value": "\n            Juvenal and Persius: With An English Translation, G. G. Ramsay, 1918, William Heinemann; G. P. Putnam's Son, London\n        "
+      }
+    ],
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Satires"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Satires"
+      }
+    ]
+  },
+  {
+    "@id": "_:N69f5ea2ca8ce48ff9687f13875409a5f",
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Remedy of Love"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Remedy of Love"
+      }
+    ]
+  },
+  {
+    "@id": "_:N3a62cd1345d54afba23bbfcefe29af2a"
+  },
+  {
+    "@id": "_:N135ae62c2d0f4d3e9f93b3ba3aaf69ee",
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Art of Beauty"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Art of Beauty"
+      }
+    ]
+  },
+  {
+    "@id": "_:N04f120e92b374d81aac9cefefa64c8ff"
+  },
+  {
+    "@id": "_:Na31d8ca1e2b84ee7b7fac30403a91c8c",
+    "http://chs.harvard.edu/xmlns/cts/description": [
+      {
+        "@language": "eng",
+        "@value": "Thucydides. Historiae in two volumes. Oxford, Oxford\n            University Press. 1942."
+      }
+    ],
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "The Peloponnesian War (Oxford 1942 Epidoc)"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "The Peloponnesian War (Oxford 1942 Epidoc)"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8100891353424cd0b3f8130264d87715",
+    "http://chs.harvard.edu/xmlns/cts/title": [
+      {
+        "@language": "fre",
+        "@value": "Fastes"
+      },
+      {
+        "@language": "lat",
+        "@value": "Fasti"
+      },
+      {
+        "@language": "eng",
+        "@value": "Book of Days"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "fre",
+        "@value": "Fastes"
+      },
+      {
+        "@language": "eng",
+        "@value": "Book of Days"
+      },
+      {
+        "@language": "lat",
+        "@value": "Fasti"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne19b59634f4f40f2979dbc8476ee4339",
+    "http://chs.harvard.edu/xmlns/cts/title": [
+      {
+        "@language": "fre",
+        "@value": "Tristes"
+      },
+      {
+        "@language": "eng",
+        "@value": "Sorrows"
+      },
+      {
+        "@language": "lat",
+        "@value": "Tristia"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Sorrows"
+      },
+      {
+        "@language": "fre",
+        "@value": "Tristes"
+      },
+      {
+        "@language": "lat",
+        "@value": "Tristia"
+      }
+    ]
+  },
+  {
+    "@id": "_:N5adf88b686144dad8d41208f3999a7e0",
+    "http://chs.harvard.edu/xmlns/cts/groupname": [
+      {
+        "@language": "eng",
+        "@value": "Ovid"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Ovid"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi007.perseus-lat2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N5a6480310ab04f11b40c954bd3f1b28a"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N891f992072744a34bb140d121834bdc2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi007"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Book of Days"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi1294.phi002.perseus-eng2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "eng"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:Nbdf9c50088aa43ecbdcbcc149caa2105"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:Ncb362a8fc4ee4ca088ea03d9c01499bf"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/translation"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi1294.phi002"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Epigrammata"
+      }
+    ]
+  },
+  {
+    "@id": "_:N25fecdb6c9554df2acf6ff94260daa06",
+    "http://chs.harvard.edu/xmlns/cts/groupname": [
+      {
+        "@language": "eng",
+        "@value": "Juvenal"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Juvenal"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ncb362a8fc4ee4ca088ea03d9c01499bf",
+    "http://chs.harvard.edu/xmlns/cts/description": [
+      {
+        "@language": "eng",
+        "@value": "\n            M. Valerii Martialis Epigrammaton libri / recognovit W. Heraeus\n                        "
+      }
+    ],
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Epigrammata"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Epigrammata"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi008",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N6542fb0ed3114a09a8c46b296e65f664"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi008.perseus-lat2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:Ne19b59634f4f40f2979dbc8476ee4339"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "lat",
+        "@value": "Tristia"
+      },
+      {
+        "@language": "eng",
+        "@value": "Sorrows"
+      },
+      {
+        "@language": "fre",
+        "@value": "Tristes"
+      }
+    ]
+  },
+  {
+    "@id": "_:N474da59fa0154e0d922db2f4d3397caf"
+  },
+  {
+    "@id": "_:Nfc926d932b16404dba46bf5f2ac8b0cd"
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi003",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N8dbf8c212e10435ba0141895c1b620c1"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi003.perseus-lat2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:Na638a95aa15441e9ab737c008328ea38"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "fre",
+        "@value": "Les Fards ou Soins du visage"
+      },
+      {
+        "@language": "eng",
+        "@value": "Art of Beauty"
+      },
+      {
+        "@language": "lat",
+        "@value": "Medicamina faciei femineae"
+      }
+    ]
+  },
+  {
+    "@id": "_:N236baf74621e4df5852f9fb26921efbf",
+    "http://chs.harvard.edu/xmlns/cts/description": [
+      {
+        "@language": "eng",
+        "@value": "Perseus:bib:oclc,32116154, Ovid. Metamorphoses. Hugo\n                     Magnus. Gotha (Germany). Friedr. Andr. Perthes. 1892."
+      }
+    ],
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Metamorphoses"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Metamorphoses"
+      }
+    ]
+  },
+  {
+    "@id": "_:N0e1cdc07db5e47818af4053a7704f00f",
+    "http://chs.harvard.edu/xmlns/cts/title": [
+      {
+        "@language": "eng",
+        "@value": "Amores"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Amores"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi1276.phi001.perseus-lat2",
     "@type": [
       "http://chs.harvard.edu/xmlns/cts/CTSCollection"
     ],
@@ -175,12 +1327,12 @@
     ],
     "http://w3id.org/dts-ontology/capabilities": [
       {
-        "@id": "_:N38d951cd6a634e848ba4069ab53b8204"
+        "@id": "_:N3a62cd1345d54afba23bbfcefe29af2a"
       }
     ],
     "http://w3id.org/dts-ontology/metadata": [
       {
-        "@id": "_:N41619b12caf34df5a9e00277653b3d2d"
+        "@id": "_:N9e9558af83d545b48edfecd8c401984b"
       }
     ],
     "http://w3id.org/dts-ontology/model": [
@@ -190,46 +1342,976 @@
     ],
     "http://w3id.org/dts-ontology/parent": [
       {
-        "@id": "urn:cts:latinLit:phi1294.phi002"
-      }
-    ],
-    "http://w3id.org/dts-ontology/parents": [
-      {
-        "@id": "_:N2b6122f7a7f046b8abc97c009812bd43"
+        "@id": "urn:cts:latinLit:phi1276.phi001"
       }
     ],
     "http://www.w3.org/2000/01/rdf-schema#label": [
       {
         "@language": "eng",
-        "@value": "Epigrams [Ed 1978]"
+        "@value": "Satires"
       }
     ]
   },
   {
-    "@id": "_:N530099cbd7734345ae8858e5fee1ba14"
+    "@id": "_:Nbdf9c50088aa43ecbdcbcc149caa2105"
   },
   {
-    "@id": "_:Ndf17ebd156c6466bb8f50f88e3a3f41f"
+    "@id": "_:Nc90d1f34b8394c2faa4b678f914e0455"
   },
   {
-    "@id": "_:N91d5e393a1fa4eff80f2893f64d55148"
+    "@id": "_:N4a0e4d41c9c04d93824f2a22a20ee011"
   },
   {
-    "@id": "_:N38d951cd6a634e848ba4069ab53b8204"
+    "@id": "urn:cts:latinLit:phi0959",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N99b39defb78643aa8b725bd8463fde88"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi003"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi009"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi002"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi007"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi008"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi001"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi004"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi010"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi006"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi005"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N5adf88b686144dad8d41208f3999a7e0"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Ovid"
+      }
+    ]
   },
   {
-    "@id": "_:Nc9bbea02d51c4d0695965ade1b4ebd72"
+    "@id": "urn:cts:latinLit:phi1276",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:Nea08aa87193148c69c374f7d8fc0d9c5"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi1276.phi001"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N25fecdb6c9554df2acf6ff94260daa06"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Juvenal"
+      }
+    ]
   },
   {
-    "@id": "_:N7e09fb17aaa04ded987b6bf995094198",
+    "@id": "_:N48d337f81e8b42c2a54c4e45b4c48d1c"
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi003.perseus-lat2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N2bd041ed75eb47f0a7b86ad32a9905cf"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N135ae62c2d0f4d3e9f93b3ba3aaf69ee"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi003"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Art of Beauty"
+      }
+    ]
+  },
+  {
+    "@id": "_:N10cd52841f594f6c83963caeb478cd48"
+  },
+  {
+    "@id": "_:N57820bebfa4c4b14b3195f8d90ef4a47"
+  },
+  {
+    "@id": "_:N5a6480310ab04f11b40c954bd3f1b28a"
+  },
+  {
+    "@id": "_:N8dd0882e247f435487429b06f499d104",
     "http://chs.harvard.edu/xmlns/cts/title": [
       {
-        "@language": "lat",
-        "@value": "Epigrammata"
+        "@language": "en",
+        "@value": "The Peloponnesian War"
       },
       {
         "@language": "eng",
-        "@value": "Epigrams"
+        "@value": "The Peloponnesian War"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en",
+        "@value": "The Peloponnesian War"
+      },
+      {
+        "@language": "eng",
+        "@value": "The Peloponnesian War"
+      }
+    ]
+  },
+  {
+    "@id": "_:N8dbf8c212e10435ba0141895c1b620c1"
+  },
+  {
+    "@id": "_:Na70dec7e5611408bac5b14c2664cbbe9",
+    "http://chs.harvard.edu/xmlns/cts/description": [
+      {
+        "@language": "eng",
+        "@value": "W. Heraeus"
+      },
+      {
+        "@language": "fre",
+        "@value": "G. Heraeus"
+      }
+    ],
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Epigrammata Label"
+      },
+      {
+        "@language": "fre",
+        "@value": "Epigrammes Label"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Epigrammata Label"
+      },
+      {
+        "@language": "fre",
+        "@value": "Epigrammes Label"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2bd041ed75eb47f0a7b86ad32a9905cf"
+  },
+  {
+    "@id": "_:N226b825320f841f58227af45a9fdd7a0"
+  },
+  {
+    "@id": "_:N82cd125d72b84eec98063c75d8d2b099",
+    "http://chs.harvard.edu/xmlns/cts/title": [
+      {
+        "@language": "eng",
+        "@value": "Metamorphoses"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Metamorphoses"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi004",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:Ndf9254e6b9ef4c65891f7fb56a33ecc6"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi004.perseus-lat2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N68c93e62bd2f4ca4af5cf11c33a9ed23"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "fre",
+        "@value": "L'Art d'Aimer"
+      },
+      {
+        "@language": "lat",
+        "@value": "Ars Amatoria"
+      },
+      {
+        "@language": "eng",
+        "@value": "Art of Love"
+      }
+    ]
+  },
+  {
+    "@id": "_:N059892f1cf0047468772127143fb558c",
+    "http://chs.harvard.edu/xmlns/cts/groupname": [
+      {
+        "@language": "lat",
+        "@value": "Martialis"
+      },
+      {
+        "@language": "eng",
+        "@value": "Martial"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "lat",
+        "@value": "Martialis"
+      },
+      {
+        "@language": "eng",
+        "@value": "Martial"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi005",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:Ncb587b9aaad44997bdfc1de0b9838d73"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi005.perseus-lat2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N8fa967d6418149e08bc9d259bbf42652"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "lat",
+        "@value": "Remedia amoris"
+      },
+      {
+        "@language": "eng",
+        "@value": "Remedy of Love"
+      },
+      {
+        "@language": "fre",
+        "@value": "Remède à l'amoru"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi005.perseus-lat2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N32f700f435624e25a822957b34de33ae"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N69f5ea2ca8ce48ff9687f13875409a5f"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi005"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Remedy of Love"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi009",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N474da59fa0154e0d922db2f4d3397caf"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi009.perseus-lat2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N174e65e45f8f4a4cac4494743abd45c1"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "fre",
+        "@value": "Pontiques"
+      },
+      {
+        "@language": "lat",
+        "@value": "Ex Ponto"
+      },
+      {
+        "@language": "eng",
+        "@value": "Letters from the Black Sea"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nfac2899f82f6450e9fc8e60a34ab3aaa",
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Tristia"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Tristia"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nc75a6c28bf4d407f99e51b6472294e4c",
+    "http://chs.harvard.edu/xmlns/cts/groupname": [
+      {
+        "@language": "eng",
+        "@value": "Thucydides"
+      },
+      {
+        "@language": "en",
+        "@value": "Thucydides"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Thucydides"
+      },
+      {
+        "@language": "en",
+        "@value": "Thucydides"
+      }
+    ]
+  },
+  {
+    "@id": "",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N2db5867e6dce48208b27416fe956442e"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:greekLit:tlg0003"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi1294"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi0959"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi1276"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N340caf54551a40f9ab9e7703cb4373d4"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/TextInventory"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi004.perseus-lat2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:Nbeda8771076f4f0e9cf6dc7657a151ca"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:Nca234368fd034671b97d4f920d5808ea"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi004"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Art of Love"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi008.perseus-lat2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N57820bebfa4c4b14b3195f8d90ef4a47"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:Nfac2899f82f6450e9fc8e60a34ab3aaa"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi008"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Tristia"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nd5219ad8ae6a474ab356dc013ac75b48"
+  },
+  {
+    "@id": "_:N2db5867e6dce48208b27416fe956442e"
+  },
+  {
+    "@id": "_:N43cf807555a449268cb0c843ac0c0781"
+  },
+  {
+    "@id": "_:Nca234368fd034671b97d4f920d5808ea",
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Art of Love"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Art of Love"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi1294",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N04f120e92b374d81aac9cefefa64c8ff"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi1294.phi002"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N059892f1cf0047468772127143fb558c"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Martial"
+      },
+      {
+        "@language": "lat",
+        "@value": "Martialis"
+      }
+    ]
+  },
+  {
+    "@id": "_:N43fc41df18ee47f595abddb685ad9ddc"
+  },
+  {
+    "@id": "_:Na7cf6a59ed40446598d49d2ed502e80d"
+  },
+  {
+    "@id": "urn:cts:latinLit:phi0959.phi009.perseus-lat2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:Nc8480c2f1d92400dbb31f1a65dbd90a6"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:Naa2ac079eb4c433789c645166d24b065"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi0959.phi009"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Ex Ponto"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:greekLit:tlg0003",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N8e428e15280844f181bc2d4a1f9783f3"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:greekLit:tlg0003.tlg001"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:Nc75a6c28bf4d407f99e51b6472294e4c"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": ""
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Thucydides"
+      },
+      {
+        "@language": "en",
+        "@value": "Thucydides"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:greekLit:tlg0003.tlg001.perseus-grc2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "grc"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N37b35bbd9189429d94fe8c96419d3909"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:Na31d8ca1e2b84ee7b7fac30403a91c8c"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:greekLit:tlg0003.tlg001"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "The Peloponnesian War (Oxford 1942 Epidoc)"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ndf9254e6b9ef4c65891f7fb56a33ecc6"
+  },
+  {
+    "@id": "urn:cts:latinLit:phi1294.phi002",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "lat"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N48d337f81e8b42c2a54c4e45b4c48d1c"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi1294.phi002.perseus-eng2"
+      },
+      {
+        "@id": "urn:cts:latinLit:phi1294.phi002.perseus-lat2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N2ec4d4c7013b417db153c9d6c39ae161"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi1294"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Epigrammata"
+      },
+      {
+        "@language": "fre",
+        "@value": "Epigrammes"
+      }
+    ]
+  },
+  {
+    "@id": "urn:cts:latinLit:phi1276.phi001",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:Ncf412fd4fd354ac8b1101b328a09a807"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi1276.phi001.perseus-lat2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N7704ed0517e0468e8fc29a48a5680842"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi1276"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Satires"
+      }
+    ]
+  },
+  {
+    "@id": "_:Nea08aa87193148c69c374f7d8fc0d9c5"
+  },
+  {
+    "@id": "_:N2ec4d4c7013b417db153c9d6c39ae161",
+    "http://chs.harvard.edu/xmlns/cts/title": [
+      {
+        "@language": "eng",
+        "@value": "Epigrammata"
       },
       {
         "@language": "fre",
@@ -242,52 +2324,12 @@
         "@value": "Epigrammes"
       },
       {
-        "@language": "lat",
-        "@value": "Epigrammata"
-      },
-      {
         "@language": "eng",
-        "@value": "Epigrams"
+        "@value": "Epigrammata"
       }
     ]
   },
   {
-    "@id": "_:Ndf1965f4b8064e61b30a9ebcb800e4d9"
-  },
-  {
-    "@id": "superFreak",
-    "@type": [
-      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-    ],
-    "http://chs.harvard.edu/xmlns/cts/isA": [
-      {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      }
-    ],
-    "http://w3id.org/dts-ontology/capabilities": [
-      {
-        "@id": "_:N3136fb34404442f3b9a3a264b6bd88bb"
-      }
-    ],
-    "http://w3id.org/dts-ontology/child": [
-      {
-        "@id": "urn:cts:latinLit:phi1294"
-      }
-    ],
-    "http://w3id.org/dts-ontology/metadata": [
-      {
-        "@id": "_:Ndf17ebd156c6466bb8f50f88e3a3f41f"
-      }
-    ],
-    "http://w3id.org/dts-ontology/model": [
-      {
-        "@id": "http://chs.harvard.edu/xmlns/cts/TextInventory"
-      }
-    ],
-    "http://w3id.org/dts-ontology/parents": [
-      {
-        "@id": "_:Ndf1965f4b8064e61b30a9ebcb800e4d9"
-      }
-    ]
+    "@id": "_:N6542fb0ed3114a09a8c46b296e65f664"
   }
 ]
