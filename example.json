@@ -1,265 +1,293 @@
-{
-  "@id": "http://example.com/article",
-  "@type": "ScholarlyArticle",
-
-  "name": "article title",
-
-  "about": {
-    "@id": "http://id.nlm.nih.gov/mesh/D007251",
-    "@type": "InfectiousDisease",
-    "name": "Influenza, Human",
-    "description": "An acute viral infection in humans involving the respiratory tract. It is marked by inflammation of the NASAL MUCOSA; the PHARYNX; and conjunctiva, and by headache and severe, often generalized, myalgia.",
-    "code": {
-      "@type": "MedicalCode",
-      "codeValue": "D007251",
-      "codingSystem": "MeSH"
-    },
-    "mainEntityOfPage": {
-      "@id": "#Discussion"
-    }
-  },
-
-  "author": {
-    "@type": "ContributorRole",
-
-    "author": {
-      "@id": "http://example.com/peter",
-      "@type": "Person",
-      "affiliation": [
-        {
-          "@id": "http://www.princeton.edu",
-          "@type": "CollegeOrUniversity"
-        },
-        {
-          "@id": "http://www.harvard.edu/",
-          "@type": "CollegeOrUniversity"
-        }
-      ]
-    },
-
-    "roleAffiliation": {
-      "@id": "http://www.princeton.edu",
-      "@type": "CollegeOrUniversity"
-    },
-
-    "sponsor": {
-      "@type": "SponsorRole",
-      "sponsor": {
-        "@type": "Organization"
-      },
-      "roleOffer": {
-        "@type": "FundingSource",
-        "serialNumber": "grantId"
-      },
-      "startDate": "2015-01-01"
-    },
-
-    "roleComment": [
+[
+  {
+    "@id": "_:N85ac2ec826d54bab922203c6251e9d4c",
+    "http://chs.harvard.edu/xmlns/cts/groupname": [
       {
-        "@type": "Comment",
-        "text": "senior author on this work",
-        "about": {
-          "@type": "CreateAction"
-        }
+        "@language": "eng",
+        "@value": "Martial"
       },
-
       {
-        "@type": "Comment",
-        "text": "wrote the article",
-        "about": {
-          "@type": "WriteAction"
-        }
+        "@language": "lat",
+        "@value": "Martialis"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "lat",
+        "@value": "Martialis"
       },
-
       {
-        "@type": "DisclosureStatement",
-        "text": "received personal fees for consulting for: Pfizer Inc - New York, NY, USA.",
-        "about": {
-          "@type": "PayAction",
-          "agent": {
-            "@type": "Corporation",
-            "name": "Pfizer"
-          }
-        }
-      },
-
-      {
-        "@type": "AcknowledgementStatement",
-        "text": "acknowledge the proofreading work of: Bush, Vannevar \"Vannevar Bush\"",
-        "about": {
-          "@type": "ReadAction",
-          "agent": {
-            "@type": "Person",
-            "name": "Vannevar Bush"
-          }
-        }
+        "@language": "eng",
+        "@value": "Martial"
       }
     ]
   },
-
-  "hasPart": [
-    {
-      "@id": "http://example.com/image",
-      "@type": "Image",
-      "alternateName": "figure 1",
-      "caption": "Growth of X as a function of Y",
-      "encoding": [
-        {
-          "@id": "http://example.com/encodingsmall",
-          "@type": "ImageObject",
-          "contentUrl": "http://example.com/small",
-          "height": "400px",
-          "width": "400px",
-          "isBasedOnUrl": "http://example.com/encodinglarge"
-        },
-        {
-          "@id": "http://example.com/encodinglarge",
-          "@type": "ImageObject",
-          "contentUrl": "http://example.com/large",
-          "height": "1200px",
-          "width": "1200px"
-        }
-      ],
-      "isBasedOnUrl": "http://example.com/code"
-    },
-    {
-      "@id": "http://example.com/code",
-      "@type": "SoftwareSourceCode",
-      "codeRepository": "http://example.com/repository"
-    }
-  ],
-
-  "sponsor": {
-    "@type": "SponsorRole",
-    "sponsor": {
-      "@type": "Organization"
-    },
-    "roleOffer": {
-      "@type": "FundingSource",
-      "serialNumber": "grantId"
-    },
-    "startDate": "2015-01-01"
+  {
+    "@id": "_:N3136fb34404442f3b9a3a264b6bd88bb"
   },
-
-  "isPartOf": {
-    "@id": "issueId",
-    "@type": "PublicationIssue",
-    "issueNumber": 10,
-    "isPartOf": {
-      "@id": "volumeId",
-      "@type": "PublicationVolume",
-      "volumeNumber": 2,
-      "isPartOf": {
-        "@id": "periodicalId",
-        "@type": "Periodical"
+  {
+    "@id": "urn:cts:latinLit:phi1294.phi002",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
       }
-    }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:Ne3c9c2d9c8dc47c7a712f43dfd866d3c"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi1294.phi002.perseus-lat2"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N7e09fb17aaa04ded987b6bf995094198"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi1294"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parents": [
+      {
+        "@id": "_:N91d5e393a1fa4eff80f2893f64d55148"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Epigrams"
+      },
+      {
+        "@language": "lat",
+        "@value": "Epigrammata"
+      },
+      {
+        "@language": "fre",
+        "@value": "Epigrammes"
+      }
+    ]
   },
-
-  "citation": [
-    {
-      "@type": "ScholarlyArticle",
-      "name": "On the effect of X on Y",
-      "author": {
-        "@type": "Person",
-        "givenName": "Peter",
-        "familyName": "Smith",
-        "additionalName": "Jon",
-        "name": "Peter J Smith"
-      },
-      "isPartOf": {
-        "@type": "PublicationIssue",
-        "issueNumber": 4,
-        "isPartOf": {
-          "@type": "PublicationVolume",
-          "volumeNumber": 7,
-          "isPartOf": {
-            "@type": "Periodical",
-            "name": "Journal of metaphysics"
-          }
-        }
-      },
-      "pageStart": "615",
-      "pageEnd": "620",
-      "datePublished": {
-        "@type": "xsd:gYear",
-        "@value": 2015
+  {
+    "@id": "urn:cts:latinLit:phi1294",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
       }
-    },
-
-    {
-      "@id": "http://example.com/article",
-      "@type": "Webpage",
-      "name": "How much does 'typesetting' cost?",
-      "author": {
-        "@type": "Person",
-        "givenName": "James",
-        "familyName": "Sullivan",
-        "name": "James Sullivan"
-      },
-      "datePublished": {
-        "@value": "2015-06-11",
-        "@type": "xsd:date"
-      },
-      "potentialAction": {
-        "@type": "ReadAction",
-        "actionStatus": "CompletedActionStatus",
-        "endTime": {
-          "@value": "2015-06-11",
-          "@type": "xsd:date"
-        }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N530099cbd7734345ae8858e5fee1ba14"
       }
-    }
-  ],
-
-  "potentialAction": [
-    {
-      "@type": "ReadAction",
-      "expectsAcceptanceOf": {
-        "@type": "Offer",
-        "potentialAction": {
-          "@type": "PayAction",
-          "price": "100USD"
-        }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi1294.phi002"
       }
-    },
-
-    {
-      "@type": "ReviewAction",
-      "agent-input": {
-        "@type": "PropertyValueSpecification",
-        "valueRequired": true
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N85ac2ec826d54bab922203c6251e9d4c"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "superFreak"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parents": [
+      {
+        "@id": "_:Nc9bbea02d51c4d0695965ade1b4ebd72"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Martial"
       },
-      "resultReview-input": {
-        "@type": "PropertyValueSpecification",
-        "valueRequired": true
+      {
+        "@language": "lat",
+        "@value": "Martialis"
+      }
+    ]
+  },
+  {
+    "@id": "_:N2b6122f7a7f046b8abc97c009812bd43"
+  },
+  {
+    "@id": "_:N41619b12caf34df5a9e00277653b3d2d",
+    "http://chs.harvard.edu/xmlns/cts/description": [
+      {
+        "@language": "eng",
+        "@value": "Some wonderful edition"
+      }
+    ],
+    "http://chs.harvard.edu/xmlns/cts/label": [
+      {
+        "@language": "eng",
+        "@value": "Epigrams [Ed 1978]"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "eng",
+        "@value": "Epigrams [Ed 1978]"
+      }
+    ]
+  },
+  {
+    "@id": "_:Ne3c9c2d9c8dc47c7a712f43dfd866d3c"
+  },
+  {
+    "@id": "urn:cts:latinLit:phi1294.phi002.perseus-lat2",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://purl.org/dc/elements/1.1/language": [
+      {
+        "@value": "None"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N38d951cd6a634e848ba4069ab53b8204"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:N41619b12caf34df5a9e00277653b3d2d"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/edition"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parent": [
+      {
+        "@id": "urn:cts:latinLit:phi1294.phi002"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parents": [
+      {
+        "@id": "_:N2b6122f7a7f046b8abc97c009812bd43"
+      }
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#label": [
+      {
+        "@language": "eng",
+        "@value": "Epigrams [Ed 1978]"
+      }
+    ]
+  },
+  {
+    "@id": "_:N530099cbd7734345ae8858e5fee1ba14"
+  },
+  {
+    "@id": "_:Ndf17ebd156c6466bb8f50f88e3a3f41f"
+  },
+  {
+    "@id": "_:N91d5e393a1fa4eff80f2893f64d55148"
+  },
+  {
+    "@id": "_:N38d951cd6a634e848ba4069ab53b8204"
+  },
+  {
+    "@id": "_:Nc9bbea02d51c4d0695965ade1b4ebd72"
+  },
+  {
+    "@id": "_:N7e09fb17aaa04ded987b6bf995094198",
+    "http://chs.harvard.edu/xmlns/cts/title": [
+      {
+        "@language": "lat",
+        "@value": "Epigrammata"
       },
-      "target": {
-        "@type": "EntryPoint",
-        "httpMethod": "PUT",
-        "urlTemplate": "http://example.com/review"
+      {
+        "@language": "eng",
+        "@value": "Epigrams"
+      },
+      {
+        "@language": "fre",
+        "@value": "Epigrammes"
       }
-    },
-
-
-    {
-      "@type": "AddAction",
-      "targetCollection": {
-        "@id": "issueId",
-        "@type": "PublicationIssue",
-        "issueNumber": 10,
-        "isPartOf": {
-          "@id": "volumeId",
-          "@type": "PublicationVolume",
-          "volumeNumber": 2,
-          "isPartOf": {
-            "@id": "periodicalId",
-            "@type": "Periodical",
-            "name": "Tiqqun"
-          }
-        }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "fre",
+        "@value": "Epigrammes"
+      },
+      {
+        "@language": "lat",
+        "@value": "Epigrammata"
+      },
+      {
+        "@language": "eng",
+        "@value": "Epigrams"
       }
-    }
-  ]
-
-}
+    ]
+  },
+  {
+    "@id": "_:Ndf1965f4b8064e61b30a9ebcb800e4d9"
+  },
+  {
+    "@id": "superFreak",
+    "@type": [
+      "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+    ],
+    "http://chs.harvard.edu/xmlns/cts/isA": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      }
+    ],
+    "http://w3id.org/dts-ontology/capabilities": [
+      {
+        "@id": "_:N3136fb34404442f3b9a3a264b6bd88bb"
+      }
+    ],
+    "http://w3id.org/dts-ontology/child": [
+      {
+        "@id": "urn:cts:latinLit:phi1294"
+      }
+    ],
+    "http://w3id.org/dts-ontology/metadata": [
+      {
+        "@id": "_:Ndf17ebd156c6466bb8f50f88e3a3f41f"
+      }
+    ],
+    "http://w3id.org/dts-ontology/model": [
+      {
+        "@id": "http://chs.harvard.edu/xmlns/cts/TextInventory"
+      }
+    ],
+    "http://w3id.org/dts-ontology/parents": [
+      {
+        "@id": "_:Ndf1965f4b8064e61b30a9ebcb800e4d9"
+      }
+    ]
+  }
+]
