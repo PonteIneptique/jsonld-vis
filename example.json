@@ -1,955 +1,1481 @@
 {
-  "@context": {
-    "dts": "http://w3id.org/dts-ontology/",
-    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-    "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
-    "skos": "http://www.w3.org/2004/02/skos/core#",
-    "tei": "http://www.tei-c.org/ns/1.0/",
-    "xsd": "http://www.w3.org/2001/XMLSchema#"
-  },
-  "@graph": [
-    {
-      "@id": "_:Ned523406d5054cb0b67b9e741529a0ee"
-    },
-    {
-      "@id": "_:Ndd8bbdec693b4613b9f562e5a862b134"
-    },
-    {
-      "@id": "_:N9337d769a4814aa5993fddcc3c2498b2"
-    },
-    {
-      "@id": "_:N996c494b101543f5a1e3a98f5bdf21f4"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg020",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nb286efad26a541cb88ce7b0eeb5cdae9"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg020.perseus-eng2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg020.perseus-grc2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N3710f294f5fb4111b869f12e7b4bf5a2"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Comparison of Timoleon and Aemilius"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg012",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ne1b7ac26e28449e19ec18ac23f96ea96"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg012.perseus-grc2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg012.perseus-eng2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N6a6d6ea3b6a0441683cc287e0fd46f93"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Pericles"
-      }
-    },
-    {
-      "@id": "_:Nec876efaa64b48659362a48b7deafe42"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg010",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N7ffcacb129f14cf6b6d33d419016c7b0"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg010.perseus-eng2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg010.perseus-grc2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N3e31a2e54e354bea8f02bd5ade3984d0"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Themistocles"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg021",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N42f702609f554715a8de858f0eb54054"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg021.perseus-grc2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg021.perseus-eng2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nf7c5b746ae64418abb5a26b259dab76c"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Pelopidas"
-      }
-    },
-    {
-      "@id": "_:N7582c947dd3e4082a8d13b974c7a1bfe"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg013",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ne6d436067a7840e19c15f658d89d57c4"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg013.perseus-eng2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg013.perseus-grc2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N1287d79c8c2640faa298842d5fd91688"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Fabius Maximus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N654c299770624b4ba123a5474b1511d8"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg019"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg015"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg021"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg016"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg017"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg018"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg014"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg013"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Na2e17b8b27c8471ca42a977405795b33"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": [
-        {
-          "@language": "en",
-          "@value": "Plutarch"
-        },
-        {
-          "@language": "eng",
-          "@value": "Plutarch"
-        }
-      ]
-    },
-    {
-      "@id": "_:Nb286efad26a541cb88ce7b0eeb5cdae9"
-    },
-    {
-      "@id": "_:N437cbcd35593406ea2e92a546ebf99e9"
-    },
-    {
-      "@id": "_:Ncd7df1c0ed1b414e96f196e364f01f24"
-    },
-    {
-      "@id": "_:N942c928a7809415ba7ab30ece225c379"
-    },
-    {
-      "@id": "_:N908a5a68d5354599961a574734c334ac"
-    },
-    {
-      "@id": "_:Nf540344c670d4b0686ebbf9845fd717a"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg006",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N6ed3036ee6f549718ad457b3b229a97b"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg006.perseus-eng2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg006.perseus-grc2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N1b5098cd4d864182ad837d29b1fb7889"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Comparison of Lycurgus and Numa"
-      }
-    },
-    {
-      "@id": "_:Nf7c5b746ae64418abb5a26b259dab76c"
-    },
-    {
-      "@id": "_:N1b5098cd4d864182ad837d29b1fb7889"
-    },
-    {
-      "@id": "_:N3cfeee3b2ecb4b128189a119ab5ccb74"
-    },
-    {
-      "@id": "_:N7ffcacb129f14cf6b6d33d419016c7b0"
-    },
-    {
-      "@id": "_:N5f49e5e5e80d42c398c5012e329faaa2"
-    },
-    {
-      "@id": "_:N654c299770624b4ba123a5474b1511d8"
-    },
-    {
-      "@id": "_:Nb8bef3aecfcd470eb721d66a40de9dbe"
-    },
-    {
-      "@id": "_:N6a6d6ea3b6a0441683cc287e0fd46f93"
-    },
-    {
-      "@id": "_:N8f82d75c95e84119b8c7044e90f9714d"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg014",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ndd8bbdec693b4613b9f562e5a862b134"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg014.perseus-grc2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg014.perseus-eng2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N7e4e5e56aab6495ca045025f59163007"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Comparison of Pericles and Fabius Maximus"
-      }
-    },
-    {
-      "@id": "_:Na2e17b8b27c8471ca42a977405795b33",
-      "http://chs.harvard.edu/xmlns/cts/groupname": [
-        {
-          "@language": "en",
-          "@value": "Plutarch"
-        },
-        {
-          "@language": "eng",
-          "@value": "Plutarch"
-        }
-      ],
-      "skos:prefLabel": [
-        {
-          "@language": "en",
-          "@value": "Plutarch"
-        },
-        {
-          "@language": "eng",
-          "@value": "Plutarch"
-        }
-      ]
-    },
-    {
-      "@id": "_:Nd48dbe00ff2a4653a1238ffb472b211e"
-    },
-    {
-      "@id": "_:N02038b95ef0946bca24adaa2f227089f"
-    },
-    {
-      "@id": "_:N5e966d28cf964e0a8afa08720c18d8a1"
-    },
-    {
-      "@id": "_:N461c27e3f1384b13b531c97b05a33e92"
-    },
-    {
-      "@id": "_:N1dace07805d14da29923dc01b1cf5769"
-    },
-    {
-      "@id": "_:Nbbc5ecbbb2fa4b6581ee30d97f2738a2"
-    },
-    {
-      "@id": "_:N6ed3036ee6f549718ad457b3b229a97b"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg019",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N3cfeee3b2ecb4b128189a119ab5ccb74"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg019.perseus-grc2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg019.perseus-eng2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Ncaadb8a83f4942fa8a5a011f455e8f06"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Aemilius Paulus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg008",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N5a251a053dc54efc84d286ff3a4c842e"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg008.perseus-eng2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg008.perseus-grc2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N5e966d28cf964e0a8afa08720c18d8a1"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Publicola"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg004",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N908a5a68d5354599961a574734c334ac"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg004.perseus-grc2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg004.perseus-eng2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N3db63e7cd204415290907af712dc28c4"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Lycurgus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg007",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nec876efaa64b48659362a48b7deafe42"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg007.perseus-grc2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg007.perseus-eng2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N461c27e3f1384b13b531c97b05a33e92"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Solon"
-      }
-    },
-    {
-      "@id": "_:N7e4e5e56aab6495ca045025f59163007"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg003",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N942c928a7809415ba7ab30ece225c379"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg003.perseus-grc2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg003.perseus-eng2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N437cbcd35593406ea2e92a546ebf99e9"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Comparison of Theseus and Romulus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg015",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N8f82d75c95e84119b8c7044e90f9714d"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg015.perseus-grc2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg015.perseus-eng2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Ned523406d5054cb0b67b9e741529a0ee"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Alcibiades"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg011",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N37696d30ef2940049991d8df455132ae"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg011.perseus-eng2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg011.perseus-grc2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N76ebb10d3b4f4c819ec29c490a90614d"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Camillus"
-      }
-    },
-    {
-      "@id": "_:N3e31a2e54e354bea8f02bd5ade3984d0"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg016",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Na45277f696664e738648d34dbdbe68f9"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg016.perseus-eng2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg016.perseus-grc2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nf2f9b90aa0074158ab0ebca2aafd0660"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Caius Marcius Coriolanus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg009",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ncd7df1c0ed1b414e96f196e364f01f24"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg009.perseus-grc2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg009.perseus-eng2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N9337d769a4814aa5993fddcc3c2498b2"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Comparison of Solon and Publicola"
-      }
-    },
-    {
-      "@id": "_:N3710f294f5fb4111b869f12e7b4bf5a2"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg005",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N882dabd4023b457c9ae2aa4c4acc67cc"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg005.perseus-eng2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg005.perseus-grc2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nf540344c670d4b0686ebbf9845fd717a"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Numa"
-      }
-    },
-    {
-      "@id": "",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nb8bef3aecfcd470eb721d66a40de9dbe"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "dts:metadata": {
-        "@id": "_:N5f49e5e5e80d42c398c5012e329faaa2"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/TextInventory"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      }
-    },
-    {
-      "@id": "_:N76ebb10d3b4f4c819ec29c490a90614d"
-    },
-    {
-      "@id": "_:N1287d79c8c2640faa298842d5fd91688"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg018",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N1dace07805d14da29923dc01b1cf5769"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg018.perseus-eng2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg018.perseus-grc2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N73fd9594753e42c1be967ea2431bfad3"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Timoleon"
-      }
-    },
-    {
-      "@id": "_:N5a251a053dc54efc84d286ff3a4c842e"
-    },
-    {
-      "@id": "_:Nf2f9b90aa0074158ab0ebca2aafd0660"
-    },
-    {
-      "@id": "_:N37696d30ef2940049991d8df455132ae"
-    },
-    {
-      "@id": "_:N3db63e7cd204415290907af712dc28c4"
-    },
-    {
-      "@id": "_:N73fd9594753e42c1be967ea2431bfad3"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg002",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nebb352cc629946ce9d8a878b982db056"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg002.perseus-eng2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg002.perseus-grc2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nbbc5ecbbb2fa4b6581ee30d97f2738a2"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Romulus"
-      }
-    },
-    {
-      "@id": "_:Ne1b7ac26e28449e19ec18ac23f96ea96"
-    },
-    {
-      "@id": "_:Nebb352cc629946ce9d8a878b982db056"
-    },
-    {
-      "@id": "_:Ncaadb8a83f4942fa8a5a011f455e8f06"
-    },
-    {
-      "@id": "_:Na45277f696664e738648d34dbdbe68f9"
-    },
-    {
-      "@id": "_:N882dabd4023b457c9ae2aa4c4acc67cc"
-    },
-    {
-      "@id": "_:Ne6d436067a7840e19c15f658d89d57c4"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg001",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nd48dbe00ff2a4653a1238ffb472b211e"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg001.perseus-eng3"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg001.perseus-grc2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N996c494b101543f5a1e3a98f5bdf21f4"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Theseus"
-      }
-    },
-    {
-      "@id": "_:N42f702609f554715a8de858f0eb54054"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0007.tlg017",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N7582c947dd3e4082a8d13b974c7a1bfe"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg017.perseus-grc2"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg017.perseus-eng2"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N02038b95ef0946bca24adaa2f227089f"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/work"
-      },
-      "dts:parent": {
-        "@id": "urn:cts:greekLit:tlg0007"
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "http://purl.org/dc/elements/1.1/language": "grc",
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Comparison of Alcibiades and Coriolanus"
-      }
-    }
-  ]
+"@context": {
+"dts": "http://w3id.org/dts-ontology/",
+"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+"rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+"skos": "http://www.w3.org/2004/02/skos/core#",
+"tei": "http://www.tei-c.org/ns/1.0/",
+"xsd": "http://www.w3.org/2001/XMLSchema#"
+},
+"@graph": [
+{
+"@id": "urn:cts:latinLit:phi0959.phi002",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:Ndfdd4b54766f490f9a6fae7f04a4243b"
+},
+"dts:child": [
+{
+"@id": "urn:cts:latinLit:phi0959.phi002.perseus-lat2"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi002.perseus-eng2"
+}
+],
+"dts:metadata": {
+"@id": "_:N0e10f0c9293b4015a8523de95f34f669"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/work"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Epistulae"
+}
+},
+{
+"@id": "_:N2ed524ab590443279269a22365e5c3a3",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Wheeler, Arthur Leslie, 1871-1932, editor; Wheeler, Arthur Leslie, 1871-1932, editor, translator"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Tristia"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Tristia"
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi003.perseus-eng2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N78d00046dfbb4f47a4f9e64744c9bff2"
+},
+"dts:metadata": {
+"@id": "_:N678743335aac4a74bc1d13fa92f71167"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/translation"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi003"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "eng",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Medicamina Faciei Femineae, The Art of Love in Three Books The remedy of love. The art of beauty. The court of love. The history of love amours."
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi009.perseus-lat2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N5e87c2965733424eb534845728d496f9"
+},
+"dts:metadata": {
+"@id": "_:N96398daffb074e10adc5540d171e0c28"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/edition"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi009"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Ex Ponto"
+}
+},
+{
+"@id": "_:Naad77accffd04d4696a4cdfb049c5dd3",
+"http://chs.harvard.edu/xmlns/cts/title": [
+{
+"@language": "lat",
+"@value": "Ex Ponto"
+},
+{
+"@language": "eng",
+"@value": "Letters from the Black Sea"
+},
+{
+"@language": "fre",
+"@value": "Pontiques"
+}
+],
+"skos:prefLabel": [
+{
+"@language": "eng",
+"@value": "Letters from the Black Sea"
+},
+{
+"@language": "lat",
+"@value": "Ex Ponto"
+},
+{
+"@language": "fre",
+"@value": "Pontiques"
+}
+]
+},
+{
+"@id": "_:Nb02b587bf3024802b4090f646dfe1c84",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Tate, Nahum, 1652-1715,\n      translator; , editor"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Remedia Amoris, The Art of Love in Three Books The remedy of love. The\n      art of beauty. The court of love. The history of love amours."
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Remedia Amoris, The Art of Love in Three Books The remedy of love. The\n      art of beauty. The court of love. The history of love amours."
+}
+},
+{
+"@id": "_:N377811e4f5654cdc8c536e9d16351334"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi001",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N6dc7ab7fc92444c4beeed7223d0dbb70"
+},
+"dts:child": [
+{
+"@id": "urn:cts:latinLit:phi0959.phi001.perseus-eng2"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi001.perseus-lat2"
+}
+],
+"dts:metadata": {
+"@id": "_:N82eca414fe12410cb301d22614ff8895"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/work"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Amores"
+}
+},
+{
+"@id": "_:N448d48f969e94562a00fa0ecdcebaae5"
+},
+{
+"@id": "_:Nbec36ceb0ccc479eb6909cb6675b0cfd"
+},
+{
+"@id": "_:Nfeb28ffcf82a4078aa35382d0bf00437"
+},
+{
+"@id": "_:N05b126232c594e92b1aeb57b305a4656"
+},
+{
+"@id": "_:N1cef4cf8c79b4c6ba8ed0686d3f735e9"
+},
+{
+"@id": "",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N4aa90dd032214d5b9fdaef98eab94f8a"
+},
+"dts:child": {
+"@id": "urn:cts:latinLit:phi0959"
+},
+"dts:metadata": {
+"@id": "_:N05b126232c594e92b1aeb57b305a4656"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/TextInventory"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi005.perseus-lat2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N80bbf9ee692d4e86a5ad490a08a84d4f"
+},
+"dts:metadata": {
+"@id": "_:Ndf2073eb985f4d8496b47562d21323e8"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/edition"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi005"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Remedy of Love"
+}
+},
+{
+"@id": "_:N9eaf23dace7a44b5ae59cb0ebcb5e367",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Perseus:bib:oclc,32116154, Ovid. Metamorphoses. Hugo Magnus.\n      Gotha (Germany). Friedr. Andr. Perthes. 1892."
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Metamorphoses"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Metamorphoses"
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi006.perseus-eng3",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:Nf67cbd5701d34256826a602f8a01b2bd"
+},
+"dts:metadata": {
+"@id": "_:Nd4075378517f4febb65d2944a14ebd16"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/translation"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi006"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "eng",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Metamorphoses (English Translation by Brooks More)"
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi010.perseus-lat2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:Na15f14fc572d4274953b8188e3877250"
+},
+"dts:metadata": {
+"@id": "_:N7923c912372543e8967937db7fa33e93"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/edition"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi010"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Ibis"
+}
+},
+{
+"@id": "_:N7923c912372543e8967937db7fa33e93",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Merkel, Rudolf, 1811-1885, editor; Ehwald, Rudolf, 1847-1927, editor"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Ibis"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Ibis"
+}
+},
+{
+"@id": "_:Nd022d2514dd5465686bd591789af2c3b"
+},
+{
+"@id": "_:N2277f50b8be14b7ca189132b62eccfb7",
+"http://chs.harvard.edu/xmlns/cts/title": [
+{
+"@language": "fre",
+"@value": "RemĂ¨de Ă  l'amour"
+},
+{
+"@language": "eng",
+"@value": "Remedy of Love"
+},
+{
+"@language": "lat",
+"@value": "Remedia amoris"
+}
+],
+"skos:prefLabel": [
+{
+"@language": "lat",
+"@value": "Remedia amoris"
+},
+{
+"@language": "eng",
+"@value": "Remedy of Love"
+},
+{
+"@language": "fre",
+"@value": "RemĂ¨de Ă  l'amour"
+}
+]
+},
+{
+"@id": "_:N3ee90ee5ee9e42f19e8e2bcd02dd6664",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Golding, Arthur, 1536-1606,\n      translator."
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Metamorphoses (English Translation by Golding Arthur)"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Metamorphoses (English Translation by Golding Arthur)"
+}
+},
+{
+"@id": "_:N1c0738f813b343358145617be0e66292"
+},
+{
+"@id": "_:N678743335aac4a74bc1d13fa92f71167",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Anonymous, translator; , editor"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Medicamina Faciei Femineae, The Art of Love in Three Books The remedy of love. The art of beauty. The court of love. The history of love amours."
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Medicamina Faciei Femineae, The Art of Love in Three Books The remedy of love. The art of beauty. The court of love. The history of love amours."
+}
+},
+{
+"@id": "_:N59df906e57ba45e8b7acc66b52c4bfc3"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi002.perseus-lat2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:Nd60aad1fecb54056853c903f7d32eafb"
+},
+"dts:metadata": {
+"@id": "_:Nc701a1fcf310400fa4ce8441b40ea81d"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/edition"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi002"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Epistulae"
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi003",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N1049007d77114cc3acc4114252119ce7"
+},
+"dts:child": [
+{
+"@id": "urn:cts:latinLit:phi0959.phi003.perseus-eng2"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi003.perseus-lat2"
+}
+],
+"dts:metadata": {
+"@id": "_:N76d1295f8a284511a38110daba70b8b0"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/work"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": [
+{
+"@language": "lat",
+"@value": "Medicamina faciei femineae"
+},
+{
+"@language": "eng",
+"@value": "Art of Beauty"
+},
+{
+"@language": "fre",
+"@value": "Les Fards ou Soins du visage"
+}
+]
+},
+{
+"@id": "_:N02906965dd424cbeaed873a90df32f50",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Ehwald, Rudolf, 1847-1927, editor; Merkel, Rudolf, 1811-1885, editor"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Art of Beauty"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Art of Beauty"
+}
+},
+{
+"@id": "_:N4aa90dd032214d5b9fdaef98eab94f8a"
+},
+{
+"@id": "_:N8a4253a16f304cf2925d019579b698e7"
+},
+{
+"@id": "_:N2dc8289e203b48d0a968b7276167ea3f"
+},
+{
+"@id": "_:Ne02bc4619b3b4fb1baf15092a252b0f8"
+},
+{
+"@id": "_:N4abdc053530b44e48b35188649254466",
+"http://chs.harvard.edu/xmlns/cts/title": [
+{
+"@language": "fre",
+"@value": "Ibis"
+},
+{
+"@language": "eng",
+"@value": "Ibis"
+},
+{
+"@language": "lat",
+"@value": "Ibis"
+}
+],
+"skos:prefLabel": [
+{
+"@language": "eng",
+"@value": "Ibis"
+},
+{
+"@language": "fre",
+"@value": "Ibis"
+},
+{
+"@language": "lat",
+"@value": "Ibis"
+}
+]
+},
+{
+"@id": "_:N82eca414fe12410cb301d22614ff8895",
+"http://chs.harvard.edu/xmlns/cts/title": {
+"@language": "eng",
+"@value": "Amores"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Amores"
+}
+},
+{
+"@id": "_:Nf67cbd5701d34256826a602f8a01b2bd"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi005.perseus-eng2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N2dc8289e203b48d0a968b7276167ea3f"
+},
+"dts:metadata": {
+"@id": "_:Nb02b587bf3024802b4090f646dfe1c84"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/translation"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi005"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "eng",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Remedia Amoris, The Art of Love in Three Books The remedy of love. The\n      art of beauty. The court of love. The history of love amours."
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi005",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N59df906e57ba45e8b7acc66b52c4bfc3"
+},
+"dts:child": [
+{
+"@id": "urn:cts:latinLit:phi0959.phi005.perseus-lat2"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi005.perseus-eng2"
+}
+],
+"dts:metadata": {
+"@id": "_:N2277f50b8be14b7ca189132b62eccfb7"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/work"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959"
+},
+"dts:parents": [
+{
+"@id": "urn:cts:latinLit:phi0959"
+},
+{
+"@id": ""
+}
+],
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": [
+{
+"@language": "lat",
+"@value": "Remedia amoris"
+},
+{
+"@language": "eng",
+"@value": "Remedy of Love"
+},
+{
+"@language": "fre",
+"@value": "RemĂ¨de Ă  l'amour"
+}
+]
+},
+{
+"@id": "_:N484599a292c54cb091f906c20595c2e9"
+},
+{
+"@id": "_:N76d1295f8a284511a38110daba70b8b0",
+"http://chs.harvard.edu/xmlns/cts/title": [
+{
+"@language": "lat",
+"@value": "Medicamina faciei femineae"
+},
+{
+"@language": "eng",
+"@value": "Art of Beauty"
+},
+{
+"@language": "fre",
+"@value": "Les Fards ou Soins du visage"
+}
+],
+"skos:prefLabel": [
+{
+"@language": "fre",
+"@value": "Les Fards ou Soins du visage"
+},
+{
+"@language": "lat",
+"@value": "Medicamina faciei femineae"
+},
+{
+"@language": "eng",
+"@value": "Art of Beauty"
+}
+]
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi003.perseus-lat2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:Nfeb28ffcf82a4078aa35382d0bf00437"
+},
+"dts:metadata": {
+"@id": "_:N02906965dd424cbeaed873a90df32f50"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/edition"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi003"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Art of Beauty"
+}
+},
+{
+"@id": "_:N7c52535a7e764945ab8fdb623d6f4092",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Ehwald, Rudolf, 1847-1927,\n      editor; Merkel, Rudolf, 1811-1885, editor"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Art of Love"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Art of Love"
+}
+},
+{
+"@id": "_:N1049007d77114cc3acc4114252119ce7"
+},
+{
+"@id": "_:Nc701a1fcf310400fa4ce8441b40ea81d",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Ehwald, Rudolf, 1847-1927, editor; Merkel, Rudolf, 1811-1885, editor"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Epistulae"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Epistulae"
+}
+},
+{
+"@id": "_:N13d65d4292784200a814429f56cc2164"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi008",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:Nf241624df5ef4a8b98aca97ae1b2f976"
+},
+"dts:child": {
+"@id": "urn:cts:latinLit:phi0959.phi008.perseus-lat2"
+},
+"dts:metadata": {
+"@id": "_:Nb27a0a7ab8bb4f889915f35c7519e058"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/work"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": [
+{
+"@language": "fre",
+"@value": "Tristes"
+},
+{
+"@language": "eng",
+"@value": "Sorrows"
+},
+{
+"@language": "lat",
+"@value": "Tristia"
+}
+]
+},
+{
+"@id": "_:N78d00046dfbb4f47a4f9e64744c9bff2"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi008.perseus-lat2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:Nfb9dd8bc05034f46bdc7a3992ca7039b"
+},
+"dts:metadata": {
+"@id": "_:N2ed524ab590443279269a22365e5c3a3"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/edition"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi008"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Tristia"
+}
+},
+{
+"@id": "_:N80bbf9ee692d4e86a5ad490a08a84d4f"
+},
+{
+"@id": "_:N320949c531684d0993958982850db203",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Dryden, John, 1631-1700, translator; Creech, Thomas, 1659-1700, translator; Hopkins, Charles, 1664?-1700?, translator; Duke, Richard, 1659?-1711, translator; Cromwell, Henry, 1659-1728, translator; Sedley, Charles, Sir, 1639-1701, translator; Eusden, Laurence, 1688-1730, translator; Rochester, John Wilmot, Earl of, 1647-1680, translator; Rymer, Thomas, 1641-1713, translator; Stepney, George, 1663-1707, translator; , editor"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Amores, The Art of Love in Three Books The remedy of love. The art of beauty. The court of love. The history of love amours."
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Amores, The Art of Love in Three Books The remedy of love. The art of beauty. The court of love. The history of love amours."
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi006.perseus-lat2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N448d48f969e94562a00fa0ecdcebaae5"
+},
+"dts:metadata": {
+"@id": "_:N9eaf23dace7a44b5ae59cb0ebcb5e367"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/edition"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi006"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Metamorphoses"
+}
+},
+{
+"@id": "_:N5e87c2965733424eb534845728d496f9"
+},
+{
+"@id": "_:N54d64466c2aa42459960a7e880ae83ab",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Dryden, John, 1631-1700,\n      translator; Congreve, William, 1670-1729, translator; , editor"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Ars Amatoria, The Art of Love in Three Books The remedy of love. The\n      art of beauty. The court of love. The history of love amours."
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Ars Amatoria, The Art of Love in Three Books The remedy of love. The\n      art of beauty. The court of love. The history of love amours."
+}
+},
+{
+"@id": "_:Ndf2073eb985f4d8496b47562d21323e8",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Ehwald, Rudolf, 1847-1927, editor; Merkel, Rudolf, 1811-1885, editor"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Remedy of Love"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Remedy of Love"
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi009",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N377811e4f5654cdc8c536e9d16351334"
+},
+"dts:child": {
+"@id": "urn:cts:latinLit:phi0959.phi009.perseus-lat2"
+},
+"dts:metadata": {
+"@id": "_:Naad77accffd04d4696a4cdfb049c5dd3"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/work"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": [
+{
+"@language": "fre",
+"@value": "Pontiques"
+},
+{
+"@language": "eng",
+"@value": "Letters from the Black Sea"
+},
+{
+"@language": "lat",
+"@value": "Ex Ponto"
+}
+]
+},
+{
+"@id": "_:Nfb9dd8bc05034f46bdc7a3992ca7039b"
+},
+{
+"@id": "_:N6f82a9d6541f41dfaf1211539eafa157",
+"http://chs.harvard.edu/xmlns/cts/title": {
+"@language": "eng",
+"@value": "Metamorphoses"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Metamorphoses"
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi001.perseus-eng2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:Ne02bc4619b3b4fb1baf15092a252b0f8"
+},
+"dts:metadata": {
+"@id": "_:N320949c531684d0993958982850db203"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/translation"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi001"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "eng",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Amores, The Art of Love in Three Books The remedy of love. The art of beauty. The court of love. The history of love amours."
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi004.perseus-eng2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N8a4253a16f304cf2925d019579b698e7"
+},
+"dts:metadata": {
+"@id": "_:N54d64466c2aa42459960a7e880ae83ab"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/translation"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi004"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "eng",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Ars Amatoria, The Art of Love in Three Books The remedy of love. The\n      art of beauty. The court of love. The history of love amours."
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi006.perseus-eng4",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N158b4b1c78aa44dd8b2dcd1404b5e338"
+},
+"dts:metadata": {
+"@id": "_:N3ee90ee5ee9e42f19e8e2bcd02dd6664"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/translation"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi006"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "eng",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Metamorphoses (English Translation by Golding Arthur)"
+}
+},
+{
+"@id": "_:Na15f14fc572d4274953b8188e3877250"
+},
+{
+"@id": "_:N96398daffb074e10adc5540d171e0c28",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Wheeler, Arthur Leslie, 1871-1932, editor; Wheeler, Arthur Leslie, 1871-1932, editor, translator"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Ex Ponto"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Ex Ponto"
+}
+},
+{
+"@id": "_:N825aa4e5ed3a4d2db6c9657b533aafe3",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Frazer, James George, Sir, 1854-1941, editor"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Book of Days"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Book of Days"
+}
+},
+{
+"@id": "_:Ndfdd4b54766f490f9a6fae7f04a4243b"
+},
+{
+"@id": "_:Nd60aad1fecb54056853c903f7d32eafb"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi001.perseus-lat2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N992da914f84d407fbcb4a9fa67391811"
+},
+"dts:metadata": {
+"@id": "_:N250f8033dcb241be91456a234d3094d3"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/edition"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi001"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Amores"
+}
+},
+{
+"@id": "_:N250f8033dcb241be91456a234d3094d3",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "\n            Amores, Epistulae, Medicamina faciei femineae, Ars amatoria, Remedia\n                    amoris, R. Ehwald, edidit ex Rudolphi Merkelii recognitione, Leipzig, B. G. Teubner, 1907\n        "
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Amores"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Amores"
+}
+},
+{
+"@id": "_:N158b4b1c78aa44dd8b2dcd1404b5e338"
+},
+{
+"@id": "_:N978c354d138241ad9ff07de67ed77fc4",
+"http://chs.harvard.edu/xmlns/cts/groupname": {
+"@language": "eng",
+"@value": "Ovid"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Ovid"
+}
+},
+{
+"@id": "_:N6dc7ab7fc92444c4beeed7223d0dbb70"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi004",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N10abaf8967d34ee0b6160ad90e8e4350"
+},
+"dts:child": [
+{
+"@id": "urn:cts:latinLit:phi0959.phi004.perseus-lat2"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi004.perseus-eng2"
+}
+],
+"dts:metadata": {
+"@id": "_:N72d183fe7c774509a2b3bac1958c5696"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/work"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": [
+{
+"@language": "fre",
+"@value": "L'Art d'Aimer"
+},
+{
+"@language": "lat",
+"@value": "Ars Amatoria"
+},
+{
+"@language": "eng",
+"@value": "Art of Love"
+}
+]
+},
+{
+"@id": "_:Nddf9faac6f18491b9d99cf238deca22e",
+"http://chs.harvard.edu/xmlns/cts/title": [
+{
+"@language": "fre",
+"@value": "Fastes"
+},
+{
+"@language": "lat",
+"@value": "Fasti"
+},
+{
+"@language": "eng",
+"@value": "Book of Days"
+}
+],
+"skos:prefLabel": [
+{
+"@language": "lat",
+"@value": "Fasti"
+},
+{
+"@language": "eng",
+"@value": "Book of Days"
+},
+{
+"@language": "fre",
+"@value": "Fastes"
+}
+]
+},
+{
+"@id": "_:N72d183fe7c774509a2b3bac1958c5696",
+"http://chs.harvard.edu/xmlns/cts/title": [
+{
+"@language": "fre",
+"@value": "L'Art d'Aimer"
+},
+{
+"@language": "eng",
+"@value": "Art of Love"
+},
+{
+"@language": "lat",
+"@value": "Ars Amatoria"
+}
+],
+"skos:prefLabel": [
+{
+"@language": "eng",
+"@value": "Art of Love"
+},
+{
+"@language": "fre",
+"@value": "L'Art d'Aimer"
+},
+{
+"@language": "lat",
+"@value": "Ars Amatoria"
+}
+]
+},
+{
+"@id": "_:Ne18aa0ef7c4a491098d442d858239e31",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Ovid, 43 B.C.-17 or 18 A.D, creator; Various, translator"
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Epistulae, The Epistles of Ovid"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Epistulae, The Epistles of Ovid"
+}
+},
+{
+"@id": "_:N7fc94360f19946dcbba522e8c1c22020"
+},
+{
+"@id": "_:Nb27a0a7ab8bb4f889915f35c7519e058",
+"http://chs.harvard.edu/xmlns/cts/title": [
+{
+"@language": "fre",
+"@value": "Tristes"
+},
+{
+"@language": "lat",
+"@value": "Tristia"
+},
+{
+"@language": "eng",
+"@value": "Sorrows"
+}
+],
+"skos:prefLabel": [
+{
+"@language": "lat",
+"@value": "Tristia"
+},
+{
+"@language": "fre",
+"@value": "Tristes"
+},
+{
+"@language": "eng",
+"@value": "Sorrows"
+}
+]
+},
+{
+"@id": "_:N992da914f84d407fbcb4a9fa67391811"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi006",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N1cef4cf8c79b4c6ba8ed0686d3f735e9"
+},
+"dts:child": [
+{
+"@id": "urn:cts:latinLit:phi0959.phi006.perseus-lat2"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi006.perseus-eng4"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi006.perseus-eng3"
+}
+],
+"dts:metadata": {
+"@id": "_:N6f82a9d6541f41dfaf1211539eafa157"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/work"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Metamorphoses"
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N13d65d4292784200a814429f56cc2164"
+},
+"dts:child": [
+{
+"@id": "urn:cts:latinLit:phi0959.phi008"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi003"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi009"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi006"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi005"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi004"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi007"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi010"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi001"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi002"
+}
+],
+"dts:metadata": {
+"@id": "_:N978c354d138241ad9ff07de67ed77fc4"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+},
+"dts:parent": {
+"@id": ""
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"rdfs:label": {
+"@language": "eng",
+"@value": "Ovid"
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi007",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:Nbec36ceb0ccc479eb6909cb6675b0cfd"
+},
+"dts:child": {
+"@id": "urn:cts:latinLit:phi0959.phi007.perseus-lat2"
+},
+"dts:metadata": {
+"@id": "_:Nddf9faac6f18491b9d99cf238deca22e"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/work"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": [
+{
+"@language": "eng",
+"@value": "Book of Days"
+},
+{
+"@language": "fre",
+"@value": "Fastes"
+},
+{
+"@language": "lat",
+"@value": "Fasti"
+}
+]
+},
+{
+"@id": "_:Nf241624df5ef4a8b98aca97ae1b2f976"
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi004.perseus-lat2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N484599a292c54cb091f906c20595c2e9"
+},
+"dts:metadata": {
+"@id": "_:N7c52535a7e764945ab8fdb623d6f4092"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/edition"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi004"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Art of Love"
+}
+},
+{
+"@id": "_:N0e10f0c9293b4015a8523de95f34f669",
+"http://chs.harvard.edu/xmlns/cts/title": {
+"@language": "eng",
+"@value": "Epistulae"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Epistulae"
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi002.perseus-eng2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:Nd022d2514dd5465686bd591789af2c3b"
+},
+"dts:metadata": {
+"@id": "_:Ne18aa0ef7c4a491098d442d858239e31"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/translation"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi002"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "eng",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Epistulae, The Epistles of Ovid"
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi007.perseus-lat2",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N1c0738f813b343358145617be0e66292"
+},
+"dts:metadata": {
+"@id": "_:N825aa4e5ed3a4d2db6c9657b533aafe3"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/edition"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959.phi007"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": {
+"@language": "eng",
+"@value": "Book of Days"
+}
+},
+{
+"@id": "_:Nd4075378517f4febb65d2944a14ebd16",
+"http://chs.harvard.edu/xmlns/cts/description": {
+"@language": "eng",
+"@value": "Perseus:bib:oclc,24965574, Ovid. Metamorphoses. Brookes More.\n      Boston. Cornhill Publishing Co. 1922."
+},
+"http://chs.harvard.edu/xmlns/cts/label": {
+"@language": "eng",
+"@value": "Metamorphoses (English Translation by Brooks More)"
+},
+"skos:prefLabel": {
+"@language": "eng",
+"@value": "Metamorphoses (English Translation by Brooks More)"
+}
+},
+{
+"@id": "urn:cts:latinLit:phi0959.phi010",
+"@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+"dts:capabilities": {
+"@id": "_:N7fc94360f19946dcbba522e8c1c22020"
+},
+"dts:child": {
+"@id": "urn:cts:latinLit:phi0959.phi010.perseus-lat2"
+},
+"dts:metadata": {
+"@id": "_:N4abdc053530b44e48b35188649254466"
+},
+"dts:model": {
+"@id": "http://chs.harvard.edu/xmlns/cts/work"
+},
+"dts:parent": {
+"@id": "urn:cts:latinLit:phi0959"
+},
+"http://chs.harvard.edu/xmlns/cts/isA": {
+"@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+},
+"http://purl.org/dc/elements/1.1/language": "lat",
+"rdfs:label": [
+{
+"@language": "fre",
+"@value": "Ibis"
+},
+{
+"@language": "lat",
+"@value": "Ibis"
+},
+{
+"@language": "eng",
+"@value": "Ibis"
+}
+]
+},
+{
+"@id": "_:N10abaf8967d34ee0b6160ad90e8e4350"
+}
+]
 }
