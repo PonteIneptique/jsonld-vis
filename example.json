@@ -9,95 +9,204 @@
   },
   "@graph": [
     {
-      "@id": "urn:cts:greekLit:tlg4024",
+      "@id": "_:Ned523406d5054cb0b67b9e741529a0ee"
+    },
+    {
+      "@id": "_:Ndd8bbdec693b4613b9f562e5a862b134"
+    },
+    {
+      "@id": "_:N9337d769a4814aa5993fddcc3c2498b2"
+    },
+    {
+      "@id": "_:N996c494b101543f5a1e3a98f5bdf21f4"
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg020",
       "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
       "dts:capabilities": {
-        "@id": "_:Na1ee154300f54ae1ace69de3782cf82e"
+        "@id": "_:Nb286efad26a541cb88ce7b0eeb5cdae9"
       },
       "dts:child": [
         {
-          "@id": "urn:cts:greekLit:tlg4024.tlg001"
+          "@id": "urn:cts:greekLit:tlg0007.tlg020.perseus-eng2"
         },
         {
-          "@id": "urn:cts:greekLit:tlg4024.tlg002"
+          "@id": "urn:cts:greekLit:tlg0007.tlg020.perseus-grc2"
         }
       ],
       "dts:metadata": {
-        "@id": "_:N1bdb48ede41b4e64a2f82c07017ba7de"
+        "@id": "_:N3710f294f5fb4111b869f12e7b4bf5a2"
       },
       "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
       },
       "dts:parent": {
-        "@id": ""
+        "@id": "urn:cts:greekLit:tlg0007"
       },
       "http://chs.harvard.edu/xmlns/cts/isA": {
         "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
       },
+      "http://purl.org/dc/elements/1.1/language": "grc",
       "rdfs:label": {
         "@language": "eng",
-        "@value": "Agathias Scholasticus"
+        "@value": "Comparison of Timoleon and Aemilius"
       }
     },
     {
-      "@id": "urn:cts:greekLit:tlg1216",
+      "@id": "urn:cts:greekLit:tlg0007.tlg012",
       "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
       "dts:capabilities": {
-        "@id": "_:N169ed240136c497782a861dbe8943245"
+        "@id": "_:Ne1b7ac26e28449e19ec18ac23f96ea96"
       },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1216.tlg001"
-      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg012.perseus-grc2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg012.perseus-eng2"
+        }
+      ],
       "dts:metadata": {
-        "@id": "_:N0bea5175cbf143b1adfe883965b682e0"
+        "@id": "_:N6a6d6ea3b6a0441683cc287e0fd46f93"
       },
       "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
       },
       "dts:parent": {
-        "@id": ""
+        "@id": "urn:cts:greekLit:tlg0007"
       },
       "http://chs.harvard.edu/xmlns/cts/isA": {
         "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
       },
+      "http://purl.org/dc/elements/1.1/language": "grc",
       "rdfs:label": {
-        "@language": "lat",
-        "@value": "Barnabae epistula"
+        "@language": "eng",
+        "@value": "Pericles"
       }
     },
     {
-      "@id": "_:N8603951dc8274069911b4b937c913c2d"
+      "@id": "_:Nec876efaa64b48659362a48b7deafe42"
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg010",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:N7ffcacb129f14cf6b6d33d419016c7b0"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg010.perseus-eng2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg010.perseus-grc2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:N3e31a2e54e354bea8f02bd5ade3984d0"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Themistocles"
+      }
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg021",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:N42f702609f554715a8de858f0eb54054"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg021.perseus-grc2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg021.perseus-eng2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:Nf7c5b746ae64418abb5a26b259dab76c"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Pelopidas"
+      }
+    },
+    {
+      "@id": "_:N7582c947dd3e4082a8d13b974c7a1bfe"
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg013",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:Ne6d436067a7840e19c15f658d89d57c4"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg013.perseus-eng2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg013.perseus-grc2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:N1287d79c8c2640faa298842d5fd91688"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Fabius Maximus"
+      }
     },
     {
       "@id": "urn:cts:greekLit:tlg0007",
       "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
       "dts:capabilities": {
-        "@id": "_:N93518a4bf13c4a07a27274405e9d9aa4"
+        "@id": "_:N654c299770624b4ba123a5474b1511d8"
       },
       "dts:child": [
         {
-          "@id": "urn:cts:greekLit:tlg0007.tlg019"
+          "@id": "urn:cts:greekLit:tlg0007.tlg004"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg003"
         },
         {
           "@id": "urn:cts:greekLit:tlg0007.tlg006"
         },
         {
-          "@id": "urn:cts:greekLit:tlg0007.tlg013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg018"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg001"
+          "@id": "urn:cts:greekLit:tlg0007.tlg019"
         },
         {
           "@id": "urn:cts:greekLit:tlg0007.tlg015"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg014"
         },
         {
           "@id": "urn:cts:greekLit:tlg0007.tlg021"
@@ -106,466 +215,50 @@
           "@id": "urn:cts:greekLit:tlg0007.tlg009"
         },
         {
-          "@id": "urn:cts:greekLit:tlg0007.tlg020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007.tlg012"
-        },
-        {
           "@id": "urn:cts:greekLit:tlg0007.tlg016"
         },
         {
           "@id": "urn:cts:greekLit:tlg0007.tlg010"
         },
         {
+          "@id": "urn:cts:greekLit:tlg0007.tlg017"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg007"
+        },
+        {
           "@id": "urn:cts:greekLit:tlg0007.tlg005"
         },
         {
-          "@id": "urn:cts:greekLit:tlg0007.tlg008"
+          "@id": "urn:cts:greekLit:tlg0007.tlg018"
         },
         {
           "@id": "urn:cts:greekLit:tlg0007.tlg011"
         },
         {
-          "@id": "urn:cts:greekLit:tlg0007.tlg017"
-        },
-        {
           "@id": "urn:cts:greekLit:tlg0007.tlg002"
         },
         {
-          "@id": "urn:cts:greekLit:tlg0007.tlg003"
+          "@id": "urn:cts:greekLit:tlg0007.tlg001"
         },
         {
-          "@id": "urn:cts:greekLit:tlg0007.tlg004"
+          "@id": "urn:cts:greekLit:tlg0007.tlg014"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg020"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg012"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg008"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg013"
         }
       ],
       "dts:metadata": {
-        "@id": "_:N65a454f488c04bb9a262b7ce6b51bb0c"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": [
-        {
-          "@language": "eng",
-          "@value": "Plutarch"
-        },
-        {
-          "@language": "en",
-          "@value": "Plutarch"
-        }
-      ]
-    },
-    {
-      "@id": "urn:cts:greekLit:stoa0033a",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N35d9309329e943eea8d300bff7168919"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:stoa0033a.tlg043"
-        },
-        {
-          "@id": "urn:cts:greekLit:stoa0033a.tlg028"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nb8928903d9114e328edfd603c6416b81"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "pseudo-Aristotle"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4084",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N3240a3aff9864583a60419e519a9e74f"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4084.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Ne600e6ead00c40e0959a5f2043c26672"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Zosimus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1799",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nf67048ea53dd4469924496812afa2139"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg1799.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1799.tlg008"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N3b7dded4dda64de5a192dc4d75a573e1"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Euclid"
-      }
-    },
-    {
-      "@id": "_:N97cb5d28386b4ba9a85ffe3602b59e8f"
-    },
-    {
-      "@id": "_:N0598c1f956bd4093a01c475244a1d6a7"
-    },
-    {
-      "@id": "_:N3240a3aff9864583a60419e519a9e74f"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0645",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nd7ae4a42e43a4d5fa356fc80198b5d8b"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0645.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0645.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0645.tlg002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N1d7d9e0983cf4139a244c54b7b885d64"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Justin Martyr"
-      }
-    },
-    {
-      "@id": "_:Nb5e3bf77b3ff454abeb4880b22c84fff"
-    },
-    {
-      "@id": "_:Nbefb323d3fc74b559d95bd4bd74042af"
-    },
-    {
-      "@id": "_:N874ac2ef76304aeeb1991e26d6661061"
-    },
-    {
-      "@id": "_:N027a532e42d94f989911db567a7f20dd"
-    },
-    {
-      "@id": "_:N7ef261b7eafa4231b158c2d65e47389f"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0363",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N8603951dc8274069911b4b937c913c2d"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0363.tlg007"
-      },
-      "dts:metadata": {
-        "@id": "_:Ndf548789798243bdb42e8dfac362dedc"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Claudius Ptolemaeus"
-      }
-    },
-    {
-      "@id": "_:Naadfed72bf3843c7a1531f8f44ef2f07"
-    },
-    {
-      "@id": "_:N65a454f488c04bb9a262b7ce6b51bb0c"
-    },
-    {
-      "@id": "_:Nedc03373a50a4755a5e217a2eb04bb70"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1622",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N2a2d07e94c7b49be861caa65c2584191"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1622.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Nda4a4c6ee02d44bf81b7299fb838eeca"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Polycarp"
-      }
-    },
-    {
-      "@id": "_:N878ec68fd59c41b2ba29d0ddd0c8cc13"
-    },
-    {
-      "@id": "_:Nca5b714b6d0b47e2bca86e46e3105fe1"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0555",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nda2fa25c79a04719836ceabde191e077"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0555.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0555.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0555.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0555.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0555.tlg004b"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0555.tlg002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N0598c1f956bd4093a01c475244a1d6a7"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Clement of Alexandria"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2583",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N9a6bed2e580141aab9b65054767f1c06"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg2583.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N683fb08ae0774c57ba2263ba7cbf253b"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Manetho Astrologus, 4th. century CE"
-      }
-    },
-    {
-      "@id": "_:N0e18fe8d05c64c61acfd90ada2f8bb44"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1725",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N34d165e1557d4450a8093a0ab3f47de4"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1725.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N062776d8ccb7443782e10d39a79c9d62"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Theophilus"
-      }
-    },
-    {
-      "@id": "_:Nc62d9cc9a6f94ef7a3905f19bde8e0c6"
-    },
-    {
-      "@id": "_:Nc66b6c54e6d0430b8d4d13458a7589c0"
-    },
-    {
-      "@id": "_:Nba82eb49de4a4446a00f13ba02a83cd9"
-    },
-    {
-      "@id": "_:Nff500025e5cd42b8874fce5b56a6df9b"
-    },
-    {
-      "@id": "_:Nf4342a53339a4ae18f15b30d0bc26435"
-    },
-    {
-      "@id": "_:N9aa07210850e47cea2f38296db8e70da"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg9006",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N8af64e8f8d854d4bae5668263263d702"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg9006.tlg011"
-      },
-      "dts:metadata": {
-        "@id": "_:N792691a8b0014093b94467d003484878"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Gregorius"
-      }
-    },
-    {
-      "@id": "_:N7ba9bb01d3994f498342292889399eac"
-    },
-    {
-      "@id": "_:Nfb04d48b0fe94dffa11ac0d935c19eee"
-    },
-    {
-      "@id": "_:N29ec7e34ecb14348ad71e54b1b0f3edd"
-    },
-    {
-      "@id": "_:N683fb08ae0774c57ba2263ba7cbf253b"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0646",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nf4d1e0d318b74cb2b573a276b14ee987"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0646.tlg004"
-      },
-      "dts:metadata": {
-        "@id": "_:Nf4342a53339a4ae18f15b30d0bc26435"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Pseudo-Justinus Martyr"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0062",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nb5e3bf77b3ff454abeb4880b22c84fff"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0062.tlg067"
-      },
-      "dts:metadata": {
-        "@id": "_:Nfb22a4f7c4514547b7516ba1cfcfdde3"
+        "@id": "_:Na2e17b8b27c8471ca42a977405795b33"
       },
       "dts:model": {
         "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
@@ -579,495 +272,507 @@
       "rdfs:label": [
         {
           "@language": "en",
-          "@value": "Lucian"
+          "@value": "Plutarch"
         },
         {
           "@language": "eng",
-          "@value": "Lucian"
+          "@value": "Plutarch"
         }
       ]
     },
     {
-      "@id": "urn:cts:greekLit:tlg4017",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nae75656e2a5c4c0491791ae8029f47e8"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4017.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Ne8e28e67636a47bf9990e44bf2f04396"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Syrianus"
-      }
+      "@id": "_:Nb286efad26a541cb88ce7b0eeb5cdae9"
     },
     {
-      "@id": "urn:cts:greekLit:tlg0551",
+      "@id": "_:N437cbcd35593406ea2e92a546ebf99e9"
+    },
+    {
+      "@id": "_:Ncd7df1c0ed1b414e96f196e364f01f24"
+    },
+    {
+      "@id": "_:N942c928a7809415ba7ab30ece225c379"
+    },
+    {
+      "@id": "_:N908a5a68d5354599961a574734c334ac"
+    },
+    {
+      "@id": "_:Nf540344c670d4b0686ebbf9845fd717a"
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg006",
       "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
       "dts:capabilities": {
-        "@id": "_:N29ec7e34ecb14348ad71e54b1b0f3edd"
+        "@id": "_:N6ed3036ee6f549718ad457b3b229a97b"
       },
       "dts:child": [
         {
-          "@id": "urn:cts:greekLit:tlg0551.tlg010"
+          "@id": "urn:cts:greekLit:tlg0007.tlg006.perseus-eng2"
         },
         {
-          "@id": "urn:cts:greekLit:tlg0551.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551.tlg017"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551.tlg014"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551.tlg013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551.tlg002"
+          "@id": "urn:cts:greekLit:tlg0007.tlg006.perseus-grc2"
         }
       ],
       "dts:metadata": {
-        "@id": "_:N05d421bec4db4fcba0e1bcc7a4ad1824"
+        "@id": "_:N1b5098cd4d864182ad837d29b1fb7889"
       },
       "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
       },
       "dts:parent": {
-        "@id": ""
+        "@id": "urn:cts:greekLit:tlg0007"
       },
       "http://chs.harvard.edu/xmlns/cts/isA": {
         "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
       },
+      "http://purl.org/dc/elements/1.1/language": "grc",
       "rdfs:label": {
         "@language": "eng",
-        "@value": "Appianus of Alexandria"
+        "@value": "Comparison of Lycurgus and Numa"
+      }
+    },
+    {
+      "@id": "_:Nf7c5b746ae64418abb5a26b259dab76c"
+    },
+    {
+      "@id": "_:N1b5098cd4d864182ad837d29b1fb7889"
+    },
+    {
+      "@id": "_:N3cfeee3b2ecb4b128189a119ab5ccb74"
+    },
+    {
+      "@id": "_:N7ffcacb129f14cf6b6d33d419016c7b0"
+    },
+    {
+      "@id": "_:N5f49e5e5e80d42c398c5012e329faaa2"
+    },
+    {
+      "@id": "_:N654c299770624b4ba123a5474b1511d8"
+    },
+    {
+      "@id": "_:Nb8bef3aecfcd470eb721d66a40de9dbe"
+    },
+    {
+      "@id": "_:N6a6d6ea3b6a0441683cc287e0fd46f93"
+    },
+    {
+      "@id": "_:N8f82d75c95e84119b8c7044e90f9714d"
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg014",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:Ndd8bbdec693b4613b9f562e5a862b134"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg014.perseus-grc2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg014.perseus-eng2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:N7e4e5e56aab6495ca045025f59163007"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Comparison of Pericles and Fabius Maximus"
+      }
+    },
+    {
+      "@id": "_:Na2e17b8b27c8471ca42a977405795b33",
+      "http://chs.harvard.edu/xmlns/cts/groupname": [
+        {
+          "@language": "en",
+          "@value": "Plutarch"
+        },
+        {
+          "@language": "eng",
+          "@value": "Plutarch"
+        }
+      ],
+      "skos:prefLabel": [
+        {
+          "@language": "en",
+          "@value": "Plutarch"
+        },
+        {
+          "@language": "eng",
+          "@value": "Plutarch"
+        }
+      ]
+    },
+    {
+      "@id": "_:Nd48dbe00ff2a4653a1238ffb472b211e"
+    },
+    {
+      "@id": "_:N02038b95ef0946bca24adaa2f227089f"
+    },
+    {
+      "@id": "_:N5e966d28cf964e0a8afa08720c18d8a1"
+    },
+    {
+      "@id": "_:N461c27e3f1384b13b531c97b05a33e92"
+    },
+    {
+      "@id": "_:N1dace07805d14da29923dc01b1cf5769"
+    },
+    {
+      "@id": "_:Nbbc5ecbbb2fa4b6581ee30d97f2738a2"
+    },
+    {
+      "@id": "_:N6ed3036ee6f549718ad457b3b229a97b"
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg019",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:N3cfeee3b2ecb4b128189a119ab5ccb74"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg019.perseus-grc2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg019.perseus-eng2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:Ncaadb8a83f4942fa8a5a011f455e8f06"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Aemilius Paulus"
+      }
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg008",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:N5a251a053dc54efc84d286ff3a4c842e"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg008.perseus-eng2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg008.perseus-grc2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:N5e966d28cf964e0a8afa08720c18d8a1"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Publicola"
+      }
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg004",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:N908a5a68d5354599961a574734c334ac"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg004.perseus-grc2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg004.perseus-eng2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:N3db63e7cd204415290907af712dc28c4"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Lycurgus"
+      }
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg007",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:Nec876efaa64b48659362a48b7deafe42"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg007.perseus-grc2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg007.perseus-eng2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:N461c27e3f1384b13b531c97b05a33e92"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Solon"
+      }
+    },
+    {
+      "@id": "_:N7e4e5e56aab6495ca045025f59163007"
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg003",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:N942c928a7809415ba7ab30ece225c379"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg003.perseus-grc2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg003.perseus-eng2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:N437cbcd35593406ea2e92a546ebf99e9"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Comparison of Theseus and Romulus"
+      }
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg015",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:N8f82d75c95e84119b8c7044e90f9714d"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg015.perseus-grc2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg015.perseus-eng2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:Ned523406d5054cb0b67b9e741529a0ee"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Alcibiades"
+      }
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg011",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:N37696d30ef2940049991d8df455132ae"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg011.perseus-eng2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg011.perseus-grc2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:N76ebb10d3b4f4c819ec29c490a90614d"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Camillus"
+      }
+    },
+    {
+      "@id": "_:N3e31a2e54e354bea8f02bd5ade3984d0"
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg016",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:Na45277f696664e738648d34dbdbe68f9"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg016.perseus-eng2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg016.perseus-grc2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:Nf2f9b90aa0074158ab0ebca2aafd0660"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Caius Marcius Coriolanus"
+      }
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg009",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:Ncd7df1c0ed1b414e96f196e364f01f24"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg009.perseus-grc2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg009.perseus-eng2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:N9337d769a4814aa5993fddcc3c2498b2"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Comparison of Solon and Publicola"
+      }
+    },
+    {
+      "@id": "_:N3710f294f5fb4111b869f12e7b4bf5a2"
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg005",
+      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
+      "dts:capabilities": {
+        "@id": "_:N882dabd4023b457c9ae2aa4c4acc67cc"
+      },
+      "dts:child": [
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg005.perseus-eng2"
+        },
+        {
+          "@id": "urn:cts:greekLit:tlg0007.tlg005.perseus-grc2"
+        }
+      ],
+      "dts:metadata": {
+        "@id": "_:Nf540344c670d4b0686ebbf9845fd717a"
+      },
+      "dts:model": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
+      },
+      "dts:parent": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
+      "http://chs.harvard.edu/xmlns/cts/isA": {
+        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
+      },
+      "http://purl.org/dc/elements/1.1/language": "grc",
+      "rdfs:label": {
+        "@language": "eng",
+        "@value": "Numa"
       }
     },
     {
       "@id": "",
       "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
       "dts:capabilities": {
-        "@id": "_:N1a74adfac6d540a0a8f73cd3b39dc259"
+        "@id": "_:Nb8bef3aecfcd470eb721d66a40de9dbe"
       },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg1311"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0028"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1210"
-        },
-        {
-          "@id": "urn:cts:greekLit:stoa0033a"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1126"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0090"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4024"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2048"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2057"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1205"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg5022"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2703"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg9019"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0645"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0059"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2036"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2959"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4018"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1725"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4033"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4170"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4027"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2021"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1271"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4016"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0614"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1220"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1419"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0525"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0363"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2041"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2050"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1389"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2000"
-        },
-        {
-          "@id": "urn:cts:greekLit:stoa0121"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1216"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0543"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1622"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg5034"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4017"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1443"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0016"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2313"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2034"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1463"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2583"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0085"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0646"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4090"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0732"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0554"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0358"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4075"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0548"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1600"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0610"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2022"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0096"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0658"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2371"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg3135"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4031"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0551"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4193"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4019"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0088"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0640"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0541"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0082"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4015"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0555"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0019"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg9006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1765"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg3118"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0033"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2255"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0015"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0530"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4084"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0615"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0751"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0708"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2768"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4034"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4089"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0553"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2018"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg5026"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1337"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1551"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2115"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4021"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1766"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0526"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0544"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0540"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0062"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2733"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg9004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4030"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1252"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4036"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1799"
-        }
-      ],
+      "dts:child": {
+        "@id": "urn:cts:greekLit:tlg0007"
+      },
       "dts:metadata": {
-        "@id": "_:N595d080769bd492b89c1d596debe6421"
+        "@id": "_:N5f49e5e5e80d42c398c5012e329faaa2"
       },
       "dts:model": {
         "@id": "http://chs.harvard.edu/xmlns/cts/TextInventory"
@@ -1077,5341 +782,174 @@
       }
     },
     {
-      "@id": "urn:cts:greekLit:tlg0548",
+      "@id": "_:N76ebb10d3b4f4c819ec29c490a90614d"
+    },
+    {
+      "@id": "_:N1287d79c8c2640faa298842d5fd91688"
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg018",
       "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
       "dts:capabilities": {
-        "@id": "_:N2234758fe3b044b5a34f820468c510fc"
+        "@id": "_:N1dace07805d14da29923dc01b1cf5769"
       },
       "dts:child": [
         {
-          "@id": "urn:cts:greekLit:tlg0548.tlg001"
+          "@id": "urn:cts:greekLit:tlg0007.tlg018.perseus-eng2"
         },
         {
-          "@id": "urn:cts:greekLit:tlg0548.tlg002"
+          "@id": "urn:cts:greekLit:tlg0007.tlg018.perseus-grc2"
         }
       ],
       "dts:metadata": {
-        "@id": "_:Ne23bb2c885734b8fb8963ca0fb184ffd"
+        "@id": "_:N73fd9594753e42c1be967ea2431bfad3"
       },
       "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
       },
       "dts:parent": {
-        "@id": ""
+        "@id": "urn:cts:greekLit:tlg0007"
       },
       "http://chs.harvard.edu/xmlns/cts/isA": {
         "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
       },
+      "http://purl.org/dc/elements/1.1/language": "grc",
       "rdfs:label": {
         "@language": "eng",
-        "@value": "Apollodorus"
+        "@value": "Timoleon"
       }
     },
     {
-      "@id": "_:Nbbe1dbeea7e54a3e96dbcb8c49264714"
+      "@id": "_:N5a251a053dc54efc84d286ff3a4c842e"
     },
     {
-      "@id": "urn:cts:greekLit:tlg0554",
+      "@id": "_:Nf2f9b90aa0074158ab0ebca2aafd0660"
+    },
+    {
+      "@id": "_:N37696d30ef2940049991d8df455132ae"
+    },
+    {
+      "@id": "_:N3db63e7cd204415290907af712dc28c4"
+    },
+    {
+      "@id": "_:N73fd9594753e42c1be967ea2431bfad3"
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg002",
       "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
       "dts:capabilities": {
-        "@id": "_:N763dd06312504543b5791f903afbf5b4"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0554.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N6a23721225274e938e37871c17079024"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Chariton of Aphrodisias"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4030",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nea4416e353ae4b4c8a772f40708626c9"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4030.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N5260ebde4fe64b87bbc5ae9a3510144c"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Sophonias"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0096",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N0029ca00cade425e852b47a8fe44847e"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0096.tlg002"
-      },
-      "dts:metadata": {
-        "@id": "_:Ncc9e4ab10e9e43028398eab4a0aa73a0"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Aesop"
-      }
-    },
-    {
-      "@id": "_:N5bc28815727c4f5399e72cb240677485"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2959",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N7e24479ca1474d77947149ec3aebae78"
+        "@id": "_:Nebb352cc629946ce9d8a878b982db056"
       },
       "dts:child": [
         {
-          "@id": "urn:cts:greekLit:tlg2959.tlg001"
+          "@id": "urn:cts:greekLit:tlg0007.tlg002.perseus-eng2"
         },
         {
-          "@id": "urn:cts:greekLit:tlg2959.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2959.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2959.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2959.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2959.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2959.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2959.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2959.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2959.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2959.tlg011"
+          "@id": "urn:cts:greekLit:tlg0007.tlg002.perseus-grc2"
         }
       ],
       "dts:metadata": {
-        "@id": "_:Nb42ca3635dad422bb176ebd0b527c0f6"
+        "@id": "_:Nbbc5ecbbb2fa4b6581ee30d97f2738a2"
       },
       "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
       },
       "dts:parent": {
-        "@id": ""
+        "@id": "urn:cts:greekLit:tlg0007"
       },
       "http://chs.harvard.edu/xmlns/cts/isA": {
         "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
       },
+      "http://purl.org/dc/elements/1.1/language": "grc",
       "rdfs:label": {
         "@language": "eng",
-        "@value": "Methodius"
+        "@value": "Romulus"
       }
     },
     {
-      "@id": "_:N38c0fa929b44494dba86ed85885b49b5"
+      "@id": "_:Ne1b7ac26e28449e19ec18ac23f96ea96"
     },
     {
-      "@id": "_:Nd45ba67a2c294052b7f645124de70547"
+      "@id": "_:Nebb352cc629946ce9d8a878b982db056"
     },
     {
-      "@id": "_:N15c4b14b1a0e467d80076731bb732918"
+      "@id": "_:Ncaadb8a83f4942fa8a5a011f455e8f06"
     },
     {
-      "@id": "_:N3e56186f44ce4764a34bd307c120cf7e"
+      "@id": "_:Na45277f696664e738648d34dbdbe68f9"
     },
     {
-      "@id": "urn:cts:greekLit:tlg0658",
+      "@id": "_:N882dabd4023b457c9ae2aa4c4acc67cc"
+    },
+    {
+      "@id": "_:Ne6d436067a7840e19c15f658d89d57c4"
+    },
+    {
+      "@id": "urn:cts:greekLit:tlg0007.tlg001",
       "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
       "dts:capabilities": {
-        "@id": "_:Nb6ece9c357d240f69c7278b28c7b6020"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0658.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Ne1849e42cc9849888cf10abd5b14351e"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Heliodorus of Emesa"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0527",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nf86a34c4a58a4692996cf5596a3b7e72"
+        "@id": "_:Nd48dbe00ff2a4653a1238ffb472b211e"
       },
       "dts:child": [
         {
-          "@id": "urn:cts:greekLit:tlg0527.tlg013"
+          "@id": "urn:cts:greekLit:tlg0007.tlg001.perseus-eng3"
         },
         {
-          "@id": "urn:cts:greekLit:tlg0527.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527.tlg030"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527.tlg014"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527.tlg048"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0527.tlg003"
+          "@id": "urn:cts:greekLit:tlg0007.tlg001.perseus-grc2"
         }
       ],
       "dts:metadata": {
-        "@id": "_:N53d15baf405b41d8ab38052965fbf3db"
+        "@id": "_:N996c494b101543f5a1e3a98f5bdf21f4"
       },
       "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
       },
       "dts:parent": {
-        "@id": ""
+        "@id": "urn:cts:greekLit:tlg0007"
       },
       "http://chs.harvard.edu/xmlns/cts/isA": {
         "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
       },
+      "http://purl.org/dc/elements/1.1/language": "grc",
       "rdfs:label": {
         "@language": "eng",
-        "@value": "Old Testament"
+        "@value": "Theseus"
       }
     },
     {
-      "@id": "_:Nea7f1712ca5a48e782a04b7ab8d8a6a5"
+      "@id": "_:N42f702609f554715a8de858f0eb54054"
     },
     {
-      "@id": "_:Nf7ba9391008a49a3a73ca3135454199f"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0033",
+      "@id": "urn:cts:greekLit:tlg0007.tlg017",
       "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
       "dts:capabilities": {
-        "@id": "_:Nd2537f946fbf4eb1a0d7f2da22b096a5"
+        "@id": "_:N7582c947dd3e4082a8d13b974c7a1bfe"
       },
       "dts:child": [
         {
-          "@id": "urn:cts:greekLit:tlg0033.tlg003"
+          "@id": "urn:cts:greekLit:tlg0007.tlg017.perseus-grc2"
         },
         {
-          "@id": "urn:cts:greekLit:tlg0033.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0033.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0033.tlg001"
+          "@id": "urn:cts:greekLit:tlg0007.tlg017.perseus-eng2"
         }
       ],
       "dts:metadata": {
-        "@id": "_:N80cc60643f5f45b68b80f28de7606ad1"
+        "@id": "_:N02038b95ef0946bca24adaa2f227089f"
       },
       "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
+        "@id": "http://chs.harvard.edu/xmlns/cts/work"
       },
       "dts:parent": {
-        "@id": ""
+        "@id": "urn:cts:greekLit:tlg0007"
       },
       "http://chs.harvard.edu/xmlns/cts/isA": {
         "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
       },
+      "http://purl.org/dc/elements/1.1/language": "grc",
       "rdfs:label": {
         "@language": "eng",
-        "@value": "Pindar"
+        "@value": "Comparison of Alcibiades and Coriolanus"
       }
-    },
-    {
-      "@id": "_:Ncb2483da1a014e02be99f70ab910b176"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2703",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N0ee8d5b2f9934d229a71292eb5ed1720"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg2703.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N4e4f2e959fa3457e8a902c0eaf8cf810"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Anna Comnena"
-      }
-    },
-    {
-      "@id": "_:N97a0800c6e784c888ceae21a040e5de8"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2036",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N845634a3d5784347a67edc972977aa19"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg2036.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N17e283606d21473d9ec569a112855768"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Dexippus"
-      }
-    },
-    {
-      "@id": "_:N4fdd4ea2bc664f16ba2bfd68e43d8c83"
-    },
-    {
-      "@id": "_:Nafec07354f5d449f9e7a26771b2f4c4b"
-    },
-    {
-      "@id": "_:N56010d1391ed4b018a1d867695bd5290"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0003",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N3ade2f4427634d199585f66c69e26049"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0003.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N00b43614000147ca817f331775295aa6"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": [
-        {
-          "@language": "en",
-          "@value": "Thucydides"
-        },
-        {
-          "@language": "eng",
-          "@value": "Thucydides"
-        }
-      ]
-    },
-    {
-      "@id": "_:N2dbb6537c4cd4b21bbb1dd3214dd7779"
-    },
-    {
-      "@id": "_:Nbafc28f3266c438ca8a3c89a78e11e30"
-    },
-    {
-      "@id": "_:Nddca5ccdab024d48bf2f33b8e0b9716f"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4027",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nff500025e5cd42b8874fce5b56a6df9b"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4027.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Nb86d657f10e349c1bf80cf9de1d3c193"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Anonymi In Aristotelis Categorias"
-      }
-    },
-    {
-      "@id": "_:Ne1849e42cc9849888cf10abd5b14351e"
-    },
-    {
-      "@id": "_:N3d1a09fa792d429bbf712772b347b31d"
-    },
-    {
-      "@id": "_:Na6018248405f47f69f640226243fe12d"
-    },
-    {
-      "@id": "_:N273232cf76bf47df8b2e54242d7fe60b"
-    },
-    {
-      "@id": "_:N728a174962e7481c8e78856ee38b5fcb"
-    },
-    {
-      "@id": "_:N6d7847ce9488461eb0dfb8e42ea9472f"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1551",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N15c4b14b1a0e467d80076731bb732918"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg1551.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1551.tlg002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N9d1210da2d6344789b5ef9a683ece150"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Oracula Sibyllina"
-      }
-    },
-    {
-      "@id": "_:N05e6588858f743f7aebdc8ed93effa14"
-    },
-    {
-      "@id": "_:Nd4eadb92769548b4b33d2082d35a2237"
-    },
-    {
-      "@id": "_:Na19f26d02ee941d484adaf6de16d3c16"
-    },
-    {
-      "@id": "_:N8bb6906398e2491ea940ad68fd8ceb2d"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0615",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N02f97324e66749429b8af40e50252b41"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0615.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N09e652fad46749908ca6ba6b0ede6a64"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Aspasius"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0627",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ncb2483da1a014e02be99f70ab910b176"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg035"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg049"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg024a"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg037"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg030"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg041"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg040"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg053"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg021"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg047"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg038"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg026"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg029"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg018"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg014"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg024b"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg052"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg025"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg043"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg019"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg022"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg039"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg048"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg027"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg028"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg015"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg042"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg017"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg036"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg023"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg033"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg051"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg045"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg031"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg016"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg032"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg050"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg055"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0627.tlg046"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nfc902dbbbe45420690e5e98baf74cb56"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Hippocrates"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0018",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N661c198c3f03411b985e9f1e0d3a7d4c"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg031"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg024"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg022"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg019"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg025"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg023"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg026"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg016"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg028"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg015"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg030"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg029"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg014"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg027"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg017"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg021"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0018.tlg018"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nbbe1dbeea7e54a3e96dbcb8c49264714"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Philo Judaeus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0082",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nfaca9df9710e4b14941a2cbb5c6da1f5"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0082.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0082.tlg001"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N6d722a91a6064308bbc8221b08c9606b"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Apollonius, Dyscolus"
-      }
-    },
-    {
-      "@id": "_:Nfb22a4f7c4514547b7516ba1cfcfdde3"
-    },
-    {
-      "@id": "_:Na0dbc4243c14415693493c04851a79db"
-    },
-    {
-      "@id": "_:N0bea5175cbf143b1adfe883965b682e0"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1419",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nc8b1c352758f450ba2132e11483d5ff4"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1419.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N3ecff9e2b3ae4a80b4a173c4feadf9f7"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Hermas, 2nd cent."
-      }
-    },
-    {
-      "@id": "_:N4f927ee6afbc4003a6efc1ab77785030"
-    },
-    {
-      "@id": "_:Nf86a34c4a58a4692996cf5596a3b7e72"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1126",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N00fa05f57cc5485782efc3e5e5d6845d"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1126.tlg003"
-      },
-      "dts:metadata": {
-        "@id": "_:Nc07b2e36a375457f8ab5e3b10b3cc05f"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Anubion Poeta Astrologus, 1st century CE"
-      }
-    },
-    {
-      "@id": "_:Nda4373f9a44e41a396678b05d63e3f60"
-    },
-    {
-      "@id": "_:N92530bc969564f49b81f7d0ef201482f"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2018",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ndda66bc61cce470e8e95654a10fa9df0"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg2018.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2018.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2018.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2018.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2018.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2018.tlg020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2018.tlg022"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2018.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2018.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2018.tlg021"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Na0dbc4243c14415693493c04851a79db"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Eusebius"
-      }
-    },
-    {
-      "@id": "_:N081e3cc2593d4d42aa343bd4fd95edf4"
-    },
-    {
-      "@id": "_:N53d15baf405b41d8ab38052965fbf3db"
-    },
-    {
-      "@id": "_:N3ade2f4427634d199585f66c69e26049"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4034",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nea7f1712ca5a48e782a04b7ab8d8a6a5"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg4034.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4034.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4034.tlg002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N6cc7812ef3a546c5a5d094d3edcaeb8f"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Michael"
-      }
-    },
-    {
-      "@id": "_:Nba4cdb8d21254631b98f0ed5ff35c04b"
-    },
-    {
-      "@id": "_:N8645c6531a8c45f8aea132e945abbd87"
-    },
-    {
-      "@id": "_:N38708c2d56c04810b9e054d4db948b49"
-    },
-    {
-      "@id": "_:Nae75656e2a5c4c0491791ae8029f47e8"
-    },
-    {
-      "@id": "_:N709498e7174f4b938db5ee78b4dfb0b2"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4019",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Na6018248405f47f69f640226243fe12d"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg4019.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4019.tlg001"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N3d208245296a41ffa35af8e2bf406120"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Olympiodorus"
-      }
-    },
-    {
-      "@id": "_:N6cc7812ef3a546c5a5d094d3edcaeb8f"
-    },
-    {
-      "@id": "_:Na2beba6ceae14af4940cbbd4e7280cb2"
-    },
-    {
-      "@id": "_:N32240c26dea54db79d159bbe1494829c"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2042",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nb606b72b2eb948599579db9981b5346c"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg016"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg028"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg017"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg084"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg021"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg015"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg045"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg029"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg014"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2042.tlg005"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nae32130cfcb741719b150768d0a5b6ee"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Origenes"
-      }
-    },
-    {
-      "@id": "_:Nd78e409ad875409b9d3f22bf8ed69580"
-    },
-    {
-      "@id": "_:N87837d9505744bbc80e89b8bbc44c748"
-    },
-    {
-      "@id": "_:N5260ebde4fe64b87bbc5ae9a3510144c"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2001",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N4fdd4ea2bc664f16ba2bfd68e43d8c83"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg2001.tlg043"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2001.tlg042"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2001.tlg040"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2001.tlg041"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2001.tlg038"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2001.tlg039"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2001.tlg044"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nd838f7a81ade44c88df2326e47653b60"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Themistius"
-      }
-    },
-    {
-      "@id": "_:N00b43614000147ca817f331775295aa6"
-    },
-    {
-      "@id": "_:N3ecff9e2b3ae4a80b4a173c4feadf9f7"
-    },
-    {
-      "@id": "_:N72ffa4ecd1b8419ebbc762f7d5fadfcb"
-    },
-    {
-      "@id": "_:N7cf3e99b6a374733982f672d15dd8325"
-    },
-    {
-      "@id": "_:Nd24ba9449f874df1a4749944a4941dae"
-    },
-    {
-      "@id": "urn:cts:greekLit:stoa0121",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N709498e7174f4b938db5ee78b4dfb0b2"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:stoa0121.stoa001"
-      },
-      "dts:metadata": {
-        "@id": "_:Nc5880c7616e94910b8e83ed148b0ce57"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Eutropius 4th cent"
-      }
-    },
-    {
-      "@id": "_:N3063a6422eaa4afea82576ef207e47cc"
-    },
-    {
-      "@id": "_:N35d9309329e943eea8d300bff7168919"
-    },
-    {
-      "@id": "_:N37eef1e9b97343969d6ac90faf52bec8"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4020",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N5119edf5ef2d4108a451be96adb067ef"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg4020.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4020.tlg001"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N8332ab3c6f0742a589b91ec13ce52b37"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Elias"
-      }
-    },
-    {
-      "@id": "_:Nf4d1e0d318b74cb2b573a276b14ee987"
-    },
-    {
-      "@id": "_:N3d208245296a41ffa35af8e2bf406120"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1252",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nda4373f9a44e41a396678b05d63e3f60"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1252.tlg002"
-      },
-      "dts:metadata": {
-        "@id": "_:N092f3cf622a349bd9e8c9eebd9d0f7e3"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Certamen Homeri et Hesiodi"
-      }
-    },
-    {
-      "@id": "_:Nd46eb84535204346b01e20de05ed2c04"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0011",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N9b78b4d1562743e193867f881babaa1b"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0011.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0011.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0011.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0011.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0011.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0011.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0011.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0011.tlg004"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N9e7e328e8b27494298bee7635478a460"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Sophocles"
-      }
-    },
-    {
-      "@id": "_:N4aa210c649e749ad9c3d4b261c1eb0b5"
-    },
-    {
-      "@id": "_:Ne600e6ead00c40e0959a5f2043c26672"
-    },
-    {
-      "@id": "_:N7e24479ca1474d77947149ec3aebae78"
-    },
-    {
-      "@id": "_:N4d4cd2b0c2a7495494faea4609ab4d6e"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4016",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N52a1814d68f149f99959dbf9080272c3"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg4016.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4016.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4016.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4016.tlg001"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N79c5ef94b632473fac027f22b3056194"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Ammonius"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0028",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ne37c0910e1394ada8db39ef1c89bc799"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0028.tlg005"
-      },
-      "dts:metadata": {
-        "@id": "_:Ncb5e5bb3d240465ab7464c5ee185d251"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Antiphon"
-      }
-    },
-    {
-      "@id": "_:Nac6c7bb943b046c6ba25ac6046125456"
-    },
-    {
-      "@id": "_:N9ea757965942468b93e700cce811dd2f"
-    },
-    {
-      "@id": "_:N4724588f9c984dceaf4f4cb946b06812"
-    },
-    {
-      "@id": "_:N782fc5f1fce649f996fa682cc00e3d74"
-    },
-    {
-      "@id": "_:N9e2aa60fa43842a785e4ffa512322ab9"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1311",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N38c0fa929b44494dba86ed85885b49b5"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1311.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N33b21680553f462985480ff69d7e6b34"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Anonymus"
-      }
-    },
-    {
-      "@id": "_:Na1ee154300f54ae1ace69de3782cf82e"
-    },
-    {
-      "@id": "_:N34d165e1557d4450a8093a0ab3f47de4"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0010",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N807efb934c36409fb7e62a204a2ee7d9"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg021"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg024"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg027"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg017"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg014"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg018"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg022"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg030"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg025"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg016"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg015"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg023"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg026"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg029"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg019"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg028"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0010.tlg008"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N87837d9505744bbc80e89b8bbc44c748"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Isocrates"
-      }
-    },
-    {
-      "@id": "_:N4c499759d8e746828937274d5e6a75d9"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2034",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nbd0a5abffc7945d0aec444e93fde8683"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg2034.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2034.tlg007"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N454e2f36538040a2b341aa4279d4f608"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Porphyrius"
-      }
-    },
-    {
-      "@id": "_:N0dbd02cc68d44f46b8f66fe603fd1345"
-    },
-    {
-      "@id": "_:N877b9c01d35344acab7f72bc34af3c71"
-    },
-    {
-      "@id": "_:N4e4f2e959fa3457e8a902c0eaf8cf810"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0019",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Na48d4087ddfd4d30be01f028a3aee0fa"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0019.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0019.tlg007"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nd3b370294e7344c692372befc1eabdfe"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": [
-        {
-          "@language": "en",
-          "@value": "Aristophanes"
-        },
-        {
-          "@language": "eng",
-          "@value": "Aristophanes"
-        }
-      ]
-    },
-    {
-      "@id": "_:Na3af255ddd25408db7c5fca6562448cd"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0544",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N4c499759d8e746828937274d5e6a75d9"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0544.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0544.tlg001"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nedc03373a50a4755a5e217a2eb04bb70"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Sextus Empiricus"
-      }
-    },
-    {
-      "@id": "_:N05d421bec4db4fcba0e1bcc7a4ad1824"
-    },
-    {
-      "@id": "_:Nf162b951e0ea472e931cd64edd61ed5f"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg5022",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N784b185a1c614f158c5c2f6868c2e5a1"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg5022.tlg002"
-      },
-      "dts:metadata": {
-        "@id": "_:N6878670808914d9495f06216b06b4e93"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Scholia in Euclidem"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2022",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nd29f5321c36045fd86820cb16093a01c"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg2022.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2022.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2022.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2022.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2022.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2022.tlg011"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N87b6f9a4054d4b6693bca8c892a2c51b"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Gregorius Nazianzenus"
-      }
-    },
-    {
-      "@id": "_:Nd417da25b4d74f1aa273354ee4e72180"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4036",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Na1b81258b13d4d1d9cf52b36c5b1cca3"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4036.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N7b3f86dbc1b84f8bb548fe7d064603e0"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Proclus"
-      }
-    },
-    {
-      "@id": "_:N87b6f9a4054d4b6693bca8c892a2c51b"
-    },
-    {
-      "@id": "_:N5ec071a9efe240c7ad1a5a46b06911a2"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2021",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ne3a67743ab4e4341b834ba218f097f67"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg2021.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2021.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2021.tlg002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nccc466ec1dc84504b96e21c56736f372"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Epiphanius"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0090",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N56010d1391ed4b018a1d867695bd5290"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0090.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N782fc5f1fce649f996fa682cc00e3d74"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Agathemerus"
-      }
-    },
-    {
-      "@id": "_:N6a23721225274e938e37871c17079024"
-    },
-    {
-      "@id": "_:Na1b81258b13d4d1d9cf52b36c5b1cca3"
-    },
-    {
-      "@id": "_:N00fa05f57cc5485782efc3e5e5d6845d"
-    },
-    {
-      "@id": "_:N52a1814d68f149f99959dbf9080272c3"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4170",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nfb04d48b0fe94dffa11ac0d935c19eee"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4170.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N26692865e7204534bd8a86677a454493"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Vitae Pindari et varia de Pindaro"
-      }
-    },
-    {
-      "@id": "_:N595d080769bd492b89c1d596debe6421"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0086",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N15cfc99c4fe64042bb2b755b361385ea"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg044"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg017"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg026"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg037"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg018"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg016"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg014"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg040"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg034"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg042"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0086.tlg024"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N1f0845b70fe84963a58fa0680b2d8a43"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": [
-        {
-          "@language": "en",
-          "@value": "Aristotle"
-        },
-        {
-          "@language": "eng",
-          "@value": "Aristotle"
-        }
-      ]
-    },
-    {
-      "@id": "_:N169ed240136c497782a861dbe8943245"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0708",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N77f6c77c63a7450592e4be836b8c195b"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0708.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N84814eff9bf643c19cfb9c99299ae66b"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Ammonius Grammaticus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2371",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nc0a1e673a8d7469d90f0430e268f581b"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg2371.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Nd45ba67a2c294052b7f645124de70547"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Chronicon Paschale"
-      }
-    },
-    {
-      "@id": "_:N80d2d3de1fb0497eaab2299922549725"
-    },
-    {
-      "@id": "_:Nb19a2854884b4b1fb122a3503ad44027"
-    },
-    {
-      "@id": "_:Nc0a1e673a8d7469d90f0430e268f581b"
-    },
-    {
-      "@id": "_:Ncc9e4ab10e9e43028398eab4a0aa73a0"
-    },
-    {
-      "@id": "_:N7b3f86dbc1b84f8bb548fe7d064603e0"
-    },
-    {
-      "@id": "_:N842297acf4564e218a11d33c2b1b1662"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0540",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N05e6588858f743f7aebdc8ed93effa14"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0540.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0540.tlg023"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N92530bc969564f49b81f7d0ef201482f"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Lysias"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4193",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N514ec2530784493ebdab2f3db63e2d56"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4193.tlg012"
-      },
-      "dts:metadata": {
-        "@id": "_:N4b7eb088841f49f79d951220902adbb2"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Anonymi In Aristotelis Sophisticos Elenchos"
-      }
-    },
-    {
-      "@id": "_:N763dd06312504543b5791f903afbf5b4"
-    },
-    {
-      "@id": "_:N5e614032bc7e4ef1bef9164ab37d42ed"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4033",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N860e96597b6748cbbf72865796cf2531"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4033.tlg003"
-      },
-      "dts:metadata": {
-        "@id": "_:N027a532e42d94f989911db567a7f20dd"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Anonymi In Aristotelis Ethica Nicomachea"
-      }
-    },
-    {
-      "@id": "_:N15cfc99c4fe64042bb2b755b361385ea"
-    },
-    {
-      "@id": "_:N3d5590f7cf54403399b2fbc1dc5043bd"
-    },
-    {
-      "@id": "_:Ne3a67743ab4e4341b834ba218f097f67"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg9004",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N2464e0dc673145a2bfacdbc2dc4f893b"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg9004.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Naeeafb8d3b634d47b32de9e9db9e3354"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Anonymi In Aristotelis Librum Alterum Analyticorum Posteriorum"
-      }
-    },
-    {
-      "@id": "_:Ne8e28e67636a47bf9990e44bf2f04396"
-    },
-    {
-      "@id": "_:N33b21680553f462985480ff69d7e6b34"
-    },
-    {
-      "@id": "_:N8b23bbb5ffda43edbf4da4fd6f05ed4a"
-    },
-    {
-      "@id": "_:N38522978fbf442d7b257bdbe0807e4b2"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4102",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N42fb227ae398421c9563a99219ce922c"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlgX03"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlgX02"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlgX01"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg023"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg038"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg019"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg042"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg034"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg021"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg024"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg040"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg046"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg043"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg044"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg037"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg022"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg036"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg035"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg041"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg045"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4102.tlg012"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nf4d89fa7d1b64b3c82155a8738b086fc"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Catenae (Novum Testamentum)"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0526",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N4aa210c649e749ad9c3d4b261c1eb0b5"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0526.tlg003"
-      },
-      "dts:metadata": {
-        "@id": "_:N3d1a09fa792d429bbf712772b347b31d"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Flavius Iosephus"
-      }
-    },
-    {
-      "@id": "_:Naeeafb8d3b634d47b32de9e9db9e3354"
-    },
-    {
-      "@id": "_:N4b7eb088841f49f79d951220902adbb2"
-    },
-    {
-      "@id": "_:Nf67048ea53dd4469924496812afa2139"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0015",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N1faaae08d84e40e38b7feb470c256e18"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0015.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Nac6c7bb943b046c6ba25ac6046125456"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Herodian"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1443",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N3374e45b058e451ea2dabd3433f33c14"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg1443.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1443.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1443.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1443.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1443.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1443.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1443.tlg009"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N6d7847ce9488461eb0dfb8e42ea9472f"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Ignatius Antiochenus, Scr. Eccl., AD 1-2"
-      }
-    },
-    {
-      "@id": "_:N28c2d2fd56104804b083725d5d92516c"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1205",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nb19a2854884b4b1fb122a3503ad44027"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg1205.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1205.tlg001"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nd4eadb92769548b4b33d2082d35a2237"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Athenagoras"
-      }
-    },
-    {
-      "@id": "_:N062776d8ccb7443782e10d39a79c9d62"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0013",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N4ca57deb16de4ec288da00b0a20974e7"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg033"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg014"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg030"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg016"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg029"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg017"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg031"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg025"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg021"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg022"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg024"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg027"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg019"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg032"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg026"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg028"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg023"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg018"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0013.tlg015"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Ne56fe7af26e64194ba0c45ed9ef95e14"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": [
-        {
-          "@language": "eng",
-          "@value": "Homeric Hymns"
-        },
-        {
-          "@language": "grc",
-          "@value": "Hymni Homerici"
-        }
-      ]
-    },
-    {
-      "@id": "_:N93518a4bf13c4a07a27274405e9d9aa4"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0541",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N542463749712441690009cc4b514d74b"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0541.tlg042"
-      },
-      "dts:metadata": {
-        "@id": "_:N80c0971161f84158bcc256eebcb1929d"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "pseudo-Menander"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0088",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N53c32ec508f04508a4332152319114ed"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0088.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Nd933b02fe3d7436493ff49947f33e304"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Aristoxenus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2000",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nba4cdb8d21254631b98f0ed5ff35c04b"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg2000.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N7ef261b7eafa4231b158c2d65e47389f"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Plotinus"
-      }
-    },
-    {
-      "@id": "_:N42504207a3d044b19d40288fc6c8708e"
-    },
-    {
-      "@id": "_:Nb8928903d9114e328edfd603c6416b81"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2733",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N7cf3e99b6a374733982f672d15dd8325"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg2733.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N4724588f9c984dceaf4f4cb946b06812"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Evagrius, Scholasticus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2313",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N4d4cd2b0c2a7495494faea4609ab4d6e"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg2313.perseus001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2313.perseus002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N37eef1e9b97343969d6ac90faf52bec8"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Antisthenes"
-      }
-    },
-    {
-      "@id": "_:Nc5880c7616e94910b8e83ed148b0ce57"
-    },
-    {
-      "@id": "_:Nd3b370294e7344c692372befc1eabdfe"
-    },
-    {
-      "@id": "_:N9a6bed2e580141aab9b65054767f1c06"
-    },
-    {
-      "@id": "_:Ne23bb2c885734b8fb8963ca0fb184ffd"
-    },
-    {
-      "@id": "_:N2464e0dc673145a2bfacdbc2dc4f893b"
-    },
-    {
-      "@id": "_:N80c3b1610ba14f2198174de2076894e2"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0553",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N3063a6422eaa4afea82576ef207e47cc"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0553.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N8bb6906398e2491ea940ad68fd8ceb2d"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Artemidorus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0525",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nf7f9b4555ddc48f7b03fee5bfb62565b"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0525.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N79cd69e3ef9e4dcb9dbb71870e98b558"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Pausanias"
-      }
-    },
-    {
-      "@id": "_:Nd2537f946fbf4eb1a0d7f2da22b096a5"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4090",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N591a7d57d33541ddb4cb372e2f62c7e1"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4090.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Nd42779af98754f10beded980a89fe9e9"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": [
-        {
-          "@language": "lat",
-          "@value": "Cyrilli Archiepiscopi Alexandrini"
-        },
-        {
-          "@language": "eng",
-          "@value": "Cyril of Alexandria"
-        }
-      ]
-    },
-    {
-      "@id": "_:N591a7d57d33541ddb4cb372e2f62c7e1"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2255",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N001211b554774b8591c5dc01bf30a4cf"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg2255.perseus001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2255.perseus002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N728a174962e7481c8e78856ee38b5fcb"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Gorgias"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0059",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N7f6bcbb7978744dfa956ec23c3beccea"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0059.tlg037"
-      },
-      "dts:metadata": {
-        "@id": "_:N0999a3502725426690b5feb4cd9af212"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": [
-        {
-          "@language": "eng",
-          "@value": "Plato"
-        },
-        {
-          "@language": "en",
-          "@value": "Plato"
-        }
-      ]
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg9019",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N38522978fbf442d7b257bdbe0807e4b2"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg9019.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N92d05ebf534a47ba95e4215290c8c48f"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Stephanus"
-      }
-    },
-    {
-      "@id": "_:N784b185a1c614f158c5c2f6868c2e5a1"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0008",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N273232cf76bf47df8b2e54242d7fe60b"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0008.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N28c2d2fd56104804b083725d5d92516c"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Athenaeus of Naucratis"
-      }
-    },
-    {
-      "@id": "_:N0ee8d5b2f9934d229a71292eb5ed1720"
-    },
-    {
-      "@id": "_:Ndb5551bace8a4b4dbea3d348dd941036"
-    },
-    {
-      "@id": "_:Nb6ece9c357d240f69c7278b28c7b6020"
-    },
-    {
-      "@id": "_:N6f6e91d5a25948aea141a210bed0020c"
-    },
-    {
-      "@id": "_:Nf4d89fa7d1b64b3c82155a8738b086fc"
-    },
-    {
-      "@id": "_:Ndb1c4920871448d88bec1fa2f7c7f081"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2200",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N97a0800c6e784c888ceae21a040e5de8"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00446"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00547"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00463"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00434"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00448"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00539"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00518"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00509"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00523"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00506"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00430"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00462"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00451"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00530"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00450"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00524"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00406"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00442"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00533"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00545"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00456"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00520"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00427"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00433"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00528"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00507"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00459"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00440"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00535"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00527"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00409"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00411"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00502"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00445"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00405"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00408"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00454"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00441"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00515"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00447"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00516"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00449"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00522"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00505"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00429"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00541"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00501"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00410"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00548"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00546"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00403"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00540"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00521"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00404"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00550"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00525"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00504"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00531"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00437"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00464"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00439"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00544"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00537"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00436"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00455"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00444"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00407"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00517"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00534"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00510"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00426"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00503"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00453"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00402"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00458"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00461"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00538"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00542"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00460"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00532"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00536"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00513"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00514"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00543"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00432"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00551"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00549"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00511"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00401"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00519"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00512"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00508"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00457"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00529"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00443"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00526"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00431"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00428"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00452"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00435"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2200.tlg00438"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N32240c26dea54db79d159bbe1494829c"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Libanius"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1210",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nea7f6c53f2ee4d96850958de99a58e32"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg1210.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1210.tlg002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nd147f08fd42c4237a0ba08b44e223c48"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Autolycus"
-      }
-    },
-    {
-      "@id": "_:Nd147f08fd42c4237a0ba08b44e223c48"
-    },
-    {
-      "@id": "_:N2234758fe3b044b5a34f820468c510fc"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2050",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N72ffa4ecd1b8419ebbc762f7d5fadfcb"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg2050.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N2f4a3e4aef044aecb8b3c3053d63971e"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Eunapius"
-      }
-    },
-    {
-      "@id": "_:Nbd0a5abffc7945d0aec444e93fde8683"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0543",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N4476cdacd5fb418dbc631deb612b9167"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0543.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N7ba9bb01d3994f498342292889399eac"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Polybius."
-      }
-    },
-    {
-      "@id": "_:N53c32ec508f04508a4332152319114ed"
-    },
-    {
-      "@id": "_:N1bdb48ede41b4e64a2f82c07017ba7de"
-    },
-    {
-      "@id": "_:Ncce6377f57bd4b8c99bac30195612f21"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1766",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N38708c2d56c04810b9e054d4db948b49"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1766.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Nf46a27ce797e46b6bad3ca69535916fe"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Tatianus"
-      }
-    },
-    {
-      "@id": "_:Nb3f515c2339b49cab7d2523e8b51dd1c"
-    },
-    {
-      "@id": "_:Nfaca9df9710e4b14941a2cbb5c6da1f5"
-    },
-    {
-      "@id": "_:N4476cdacd5fb418dbc631deb612b9167"
-    },
-    {
-      "@id": "_:N1f0845b70fe84963a58fa0680b2d8a43"
-    },
-    {
-      "@id": "_:N7f76534f66714833b5def01622db8708"
-    },
-    {
-      "@id": "_:N807efb934c36409fb7e62a204a2ee7d9"
-    },
-    {
-      "@id": "_:Nea4416e353ae4b4c8a772f40708626c9"
-    },
-    {
-      "@id": "_:N8af64e8f8d854d4bae5668263263d702"
-    },
-    {
-      "@id": "_:Na3fbd6cde1f94042bf9eea48b47fc0ec"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0530",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N739422cfe64543a48ec34702af836957"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0530.tlg043"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0530.tlg029"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0530.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0530.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0530.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0530.tlg032"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nca5b714b6d0b47e2bca86e46e3105fe1"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "pseudo-Galen"
-      }
-    },
-    {
-      "@id": "_:N3b7dded4dda64de5a192dc4d75a573e1"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0358",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N36f2cdfdec0f432b8ba8ec5fae62949a"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0358.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N8b23bbb5ffda43edbf4da4fd6f05ed4a"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Nichomachus of Gerasa"
-      }
-    },
-    {
-      "@id": "_:N79cd69e3ef9e4dcb9dbb71870e98b558"
-    },
-    {
-      "@id": "_:Nd933b02fe3d7436493ff49947f33e304"
-    },
-    {
-      "@id": "_:N42fb227ae398421c9563a99219ce922c"
-    },
-    {
-      "@id": "_:N0029ca00cade425e852b47a8fe44847e"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1337",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nf7ba9391008a49a3a73ca3135454199f"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1337.tlg003"
-      },
-      "dts:metadata": {
-        "@id": "_:Na3af255ddd25408db7c5fca6562448cd"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Dorotheus of Sidon"
-      }
-    },
-    {
-      "@id": "_:N1d7d9e0983cf4139a244c54b7b885d64"
-    },
-    {
-      "@id": "_:Nc07b2e36a375457f8ab5e3b10b3cc05f"
-    },
-    {
-      "@id": "_:N9974454e224c4a14b96cd4cf8f53e58b"
-    },
-    {
-      "@id": "_:Na949b666439241b9a542bebbda7fe025"
-    },
-    {
-      "@id": "_:Nf7f9b4555ddc48f7b03fee5bfb62565b"
-    },
-    {
-      "@id": "_:Nc8b1c352758f450ba2132e11483d5ff4"
-    },
-    {
-      "@id": "_:N5790b78dd193451a8662bdf38ae48f4f"
-    },
-    {
-      "@id": "_:Ndec2a358fd304a9da3bdd3b781cc10f0"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4015",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N3e56186f44ce4764a34bd307c120cf7e"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg4015.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4015.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4015.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4015.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4015.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4015.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4015.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4015.tlg001"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N5bc28815727c4f5399e72cb240677485"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Joannes Philoponus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1271",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ndb5551bace8a4b4dbea3d348dd941036"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg1271.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1271.tlg002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nd386ebcbbb994d5a9dc826a21b22dd4e"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Clemens Romanus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0614",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N97cb5d28386b4ba9a85ffe3602b59e8f"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0614.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N877b9c01d35344acab7f72bc34af3c71"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Babrius"
-      }
-    },
-    {
-      "@id": "_:Nd386ebcbbb994d5a9dc826a21b22dd4e"
-    },
-    {
-      "@id": "_:N84814eff9bf643c19cfb9c99299ae66b"
-    },
-    {
-      "@id": "_:Ncafb6fd004814f92af31bfe16dac5c34"
-    },
-    {
-      "@id": "_:Nd41f235642dd4877b43897bc8f41ecc0"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0032",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N80d2d3de1fb0497eaab2299922549725"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg014"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0032.tlg002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N9e2aa60fa43842a785e4ffa512322ab9"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Xenophon"
-      }
-    },
-    {
-      "@id": "_:N36ca11af28a54b8b84af9a796b234591"
-    },
-    {
-      "@id": "_:Nae32130cfcb741719b150768d0a5b6ee"
-    },
-    {
-      "@id": "_:Nb606b72b2eb948599579db9981b5346c"
-    },
-    {
-      "@id": "_:N8332ab3c6f0742a589b91ec13ce52b37"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0016",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ne88539ba48414a3f98163eb4bf0c3f82"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0016.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Na2beba6ceae14af4940cbbd4e7280cb2"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "en",
-        "@value": "Herodotus"
-      }
-    },
-    {
-      "@id": "_:N33cddb6c5e6749328ce8e21917d6d8d1"
-    },
-    {
-      "@id": "_:N09e652fad46749908ca6ba6b0ede6a64"
-    },
-    {
-      "@id": "_:Nd29f5321c36045fd86820cb16093a01c"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4089",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nd46eb84535204346b01e20de05ed2c04"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg4089.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4089.tlg003"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N874ac2ef76304aeeb1991e26d6661061"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Theodoretus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0085",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Na3fbd6cde1f94042bf9eea48b47fc0ec"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0085.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0085.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0085.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0085.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0085.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0085.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0085.tlg003"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N842297acf4564e218a11d33c2b1b1662"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Aeschylus"
-      }
-    },
-    {
-      "@id": "_:Nfc902dbbbe45420690e5e98baf74cb56"
-    },
-    {
-      "@id": "_:N02f97324e66749429b8af40e50252b41"
-    },
-    {
-      "@id": "_:N9b78b4d1562743e193867f881babaa1b"
-    },
-    {
-      "@id": "_:Nfb57c7cc5d3b41f48b3855f1375586e3"
-    },
-    {
-      "@id": "_:N79c5ef94b632473fac027f22b3056194"
-    },
-    {
-      "@id": "_:N661c198c3f03411b985e9f1e0d3a7d4c"
-    },
-    {
-      "@id": "_:N92d05ebf534a47ba95e4215290c8c48f"
-    },
-    {
-      "@id": "_:N5119edf5ef2d4108a451be96adb067ef"
-    },
-    {
-      "@id": "_:N2f4a3e4aef044aecb8b3c3053d63971e"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg3118",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N42504207a3d044b19d40288fc6c8708e"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg3118.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg3118.tlg002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nfb57c7cc5d3b41f48b3855f1375586e3"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Sindbad the Philosopher"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0640",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N3d5590f7cf54403399b2fbc1dc5043bd"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0640.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Nd41f235642dd4877b43897bc8f41ecc0"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Alciphron Rhet., Soph., AD 2/3"
-      }
-    },
-    {
-      "@id": "_:Nfa802590ca2643dcb728351a058fddd7"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg5026",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nbefb323d3fc74b559d95bd4bd74042af"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg5026.tlg007"
-      },
-      "dts:metadata": {
-        "@id": "_:N6f703d4ab6194601b4815a119442055f"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Scholia in Homerum"
-      }
-    },
-    {
-      "@id": "_:Nb42ca3635dad422bb176ebd0b527c0f6"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg3135",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N5e614032bc7e4ef1bef9164ab37d42ed"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg3135.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg3135.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg3135.tlg005"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N810429a1982c40eebd957c3e48a14dd9"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Zonaras"
-      }
-    },
-    {
-      "@id": "_:Neffe0ed76b8a43f390bfb98a556eb25d"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1463",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N9aa07210850e47cea2f38296db8e70da"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1463.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N7f76534f66714833b5def01622db8708"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Liber Enoch"
-      }
-    },
-    {
-      "@id": "_:N8ed73858306b4319a042173825831628"
-    },
-    {
-      "@id": "_:Nfbfc1d04a41d43c29538849258b2132d"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0610",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N878ec68fd59c41b2ba29d0ddd0c8cc13"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0610.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0610.perseus002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nb3f515c2339b49cab7d2523e8b51dd1c"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Alcidamas"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0732",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N6f6e91d5a25948aea141a210bed0020c"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0732.tlgX01"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0732.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0732.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0732.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0732.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0732.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0732.tlg012"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nc62d9cc9a6f94ef7a3905f19bde8e0c6"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Alexander"
-      }
-    },
-    {
-      "@id": "_:N4ca57deb16de4ec288da00b0a20974e7"
-    },
-    {
-      "@id": "_:N2f065efcd94f4fcfbcb2c8d54d340c80"
-    },
-    {
-      "@id": "_:N3374e45b058e451ea2dabd3433f33c14"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1220",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ne7b35ce3cc174088bcd0eedd00ee7e22"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1220.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Na275a5a7d6314c4684dbfc07d457fa98"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Batrachomyomachia"
-      }
-    },
-    {
-      "@id": "_:Nf46a27ce797e46b6bad3ca69535916fe"
-    },
-    {
-      "@id": "_:Nd838f7a81ade44c88df2326e47653b60"
-    },
-    {
-      "@id": "_:N655d357a2d1840f1b0833c0132049da2"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1389",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nd417da25b4d74f1aa273354ee4e72180"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1389.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Na19f26d02ee941d484adaf6de16d3c16"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Harpocration"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0751",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N2dbb6537c4cd4b21bbb1dd3214dd7779"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0751.tlg034"
-      },
-      "dts:metadata": {
-        "@id": "_:N8ed73858306b4319a042173825831628"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "pseudo-Hippocrates"
-      }
-    },
-    {
-      "@id": "_:N26692865e7204534bd8a86677a454493"
-    },
-    {
-      "@id": "_:N6878670808914d9495f06216b06b4e93"
-    },
-    {
-      "@id": "_:Nea7f6c53f2ee4d96850958de99a58e32"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2768",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nd78e409ad875409b9d3f22bf8ed69580"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg2768.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg2768.tlg001"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Neffe0ed76b8a43f390bfb98a556eb25d"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Gelasius"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4013",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nd24ba9449f874df1a4749944a4941dae"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg4013.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4013.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4013.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg4013.tlg005"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Ndec2a358fd304a9da3bdd3b781cc10f0"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Simplicius"
-      }
-    },
-    {
-      "@id": "_:N9e7e328e8b27494298bee7635478a460"
-    },
-    {
-      "@id": "_:N80c0971161f84158bcc256eebcb1929d"
-    },
-    {
-      "@id": "_:N1a0b133713884d4991b1e8b9084d7909"
-    },
-    {
-      "@id": "_:Nd7ae4a42e43a4d5fa356fc80198b5d8b"
-    },
-    {
-      "@id": "_:Ne88539ba48414a3f98163eb4bf0c3f82"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2057",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N1a0b133713884d4991b1e8b9084d7909"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg2057.tlg002"
-      },
-      "dts:metadata": {
-        "@id": "_:Nbafc28f3266c438ca8a3c89a78e11e30"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Socrates, Scholasticus"
-      }
-    },
-    {
-      "@id": "_:N514ec2530784493ebdab2f3db63e2d56"
-    },
-    {
-      "@id": "_:Na48d4087ddfd4d30be01f028a3aee0fa"
-    },
-    {
-      "@id": "_:N792691a8b0014093b94467d003484878"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2115",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N5790b78dd193451a8662bdf38ae48f4f"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg2115.tlg060"
-      },
-      "dts:metadata": {
-        "@id": "_:Nfbb0f3b717544fdb8b3b90cfc2260e65"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Hippolytus"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0020",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N4f927ee6afbc4003a6efc1ab77785030"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0020.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0020.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0020.tlg003"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Na949b666439241b9a542bebbda7fe025"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Hesiod"
-      }
-    },
-    {
-      "@id": "_:Nb86d657f10e349c1bf80cf9de1d3c193"
-    },
-    {
-      "@id": "_:N860e96597b6748cbbf72865796cf2531"
-    },
-    {
-      "@id": "_:N2a2d07e94c7b49be861caa65c2584191"
-    },
-    {
-      "@id": "_:N36f2cdfdec0f432b8ba8ec5fae62949a"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4075",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nee827128013b4b21aca9a955036ed197"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4075.tlg002"
-      },
-      "dts:metadata": {
-        "@id": "_:N9974454e224c4a14b96cd4cf8f53e58b"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Marinus, 5th century"
-      }
-    },
-    {
-      "@id": "_:N74017d9ab6cc4feab17ce258b9014161"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0057",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N0dbd02cc68d44f46b8f66fe603fd1345"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg065"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg017"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg072"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg087"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg032"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg069"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg085"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg114"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg059"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg052"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg030"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg045"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg051"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg081"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg071"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg068"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg014"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg067"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg053"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg025"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg021"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg055"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg107"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg101"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg024"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg074"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg041"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg029"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg084"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg028"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg044"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg034"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg039"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg093"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg060"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg035"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg019"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg075"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg016"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg083"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg040"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg079"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg018"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg050"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg082"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg064"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg077"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg076"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg054"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg066"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg094"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg027"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg056"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg022"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg099"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg095"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg038"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg057"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg058"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg078"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg046"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg036"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg031"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg092"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg073"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg089"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg015"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg062"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg061"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg063"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg042"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg023"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg100"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg049"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg102"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg070"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg047"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg048"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg043"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0057.tlg103"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nfa802590ca2643dcb728351a058fddd7"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Galen"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4031",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ndb1c4920871448d88bec1fa2f7c7f081"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4031.tlg002"
-      },
-      "dts:metadata": {
-        "@id": "_:Ncafb6fd004814f92af31bfe16dac5c34"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Eustratius"
-      }
-    },
-    {
-      "@id": "_:N845634a3d5784347a67edc972977aa19"
-    },
-    {
-      "@id": "_:N001211b554774b8591c5dc01bf30a4cf"
-    },
-    {
-      "@id": "_:Ndda66bc61cce470e8e95654a10fa9df0"
-    },
-    {
-      "@id": "_:Ne56fe7af26e64194ba0c45ed9ef95e14"
-    },
-    {
-      "@id": "_:N739422cfe64543a48ec34702af836957"
-    },
-    {
-      "@id": "_:N810429a1982c40eebd957c3e48a14dd9"
-    },
-    {
-      "@id": "_:N1a74adfac6d540a0a8f73cd3b39dc259"
-    },
-    {
-      "@id": "_:Ndf548789798243bdb42e8dfac362dedc"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0006",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Naadfed72bf3843c7a1531f8f44ef2f07"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg0006.tlg009"
-      },
-      "dts:metadata": {
-        "@id": "_:N081e3cc2593d4d42aa343bd4fd95edf4"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Euripides"
-      }
-    },
-    {
-      "@id": "_:N6d722a91a6064308bbc8221b08c9606b"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1765",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N2f065efcd94f4fcfbcb2c8d54d340c80"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg1765.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1765.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg1765.tlg004"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:Nf162b951e0ea472e931cd64edd61ed5f"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Vita Aesopi"
-      }
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0012",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N74017d9ab6cc4feab17ce258b9014161"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0012.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0012.tlg002"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N5ec071a9efe240c7ad1a5a46b06911a2"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Homer"
-      }
-    },
-    {
-      "@id": "_:N7f6bcbb7978744dfa956ec23c3beccea"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2041",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N33cddb6c5e6749328ce8e21917d6d8d1"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg2041.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:Nfbfc1d04a41d43c29538849258b2132d"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Marcellus"
-      }
-    },
-    {
-      "@id": "_:N092f3cf622a349bd9e8c9eebd9d0f7e3"
-    },
-    {
-      "@id": "_:Nd42779af98754f10beded980a89fe9e9"
-    },
-    {
-      "@id": "_:Nfbb0f3b717544fdb8b3b90cfc2260e65"
-    },
-    {
-      "@id": "_:N17e283606d21473d9ec569a112855768"
-    },
-    {
-      "@id": "_:Ne7b35ce3cc174088bcd0eedd00ee7e22"
-    },
-    {
-      "@id": "_:N6f703d4ab6194601b4815a119442055f"
-    },
-    {
-      "@id": "_:N542463749712441690009cc4b514d74b"
-    },
-    {
-      "@id": "_:Na275a5a7d6314c4684dbfc07d457fa98"
-    },
-    {
-      "@id": "_:N454e2f36538040a2b341aa4279d4f608"
-    },
-    {
-      "@id": "_:Nda4a4c6ee02d44bf81b7299fb838eeca"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg0031",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:N0e18fe8d05c64c61acfd90ada2f8bb44"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg010"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg023"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg015"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg018"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg005"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg009"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg016"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg014"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg012"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg008"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg017"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg021"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg027"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg026"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg004"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg006"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg020"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg019"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg013"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg007"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg011"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg001"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg003"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg002"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg0031.tlg022"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N576129ab59c2436b8aab2d3c89afa5b6"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "New Testament"
-      }
-    },
-    {
-      "@id": "_:Ncb5e5bb3d240465ab7464c5ee185d251"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg5034",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nc66b6c54e6d0430b8d4d13458a7589c0"
-      },
-      "dts:child": [
-        {
-          "@id": "urn:cts:greekLit:tlg5034.tlg001d"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg5034.tlg001a"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg5034.tlg001b"
-        },
-        {
-          "@id": "urn:cts:greekLit:tlg5034.tlg001c"
-        }
-      ],
-      "dts:metadata": {
-        "@id": "_:N80c3b1610ba14f2198174de2076894e2"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "lat",
-        "@value": "Scholia in Pindarum"
-      }
-    },
-    {
-      "@id": "_:N0999a3502725426690b5feb4cd9af212"
-    },
-    {
-      "@id": "_:N576129ab59c2436b8aab2d3c89afa5b6"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4021",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nafec07354f5d449f9e7a26771b2f4c4b"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4021.tlg002"
-      },
-      "dts:metadata": {
-        "@id": "_:N655d357a2d1840f1b0833c0132049da2"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "David"
-      }
-    },
-    {
-      "@id": "_:Ne37c0910e1394ada8db39ef1c89bc799"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg1600",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nddca5ccdab024d48bf2f33b8e0b9716f"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg1600.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N36ca11af28a54b8b84af9a796b234591"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Philostratus Sophista"
-      }
-    },
-    {
-      "@id": "_:N1faaae08d84e40e38b7feb470c256e18"
-    },
-    {
-      "@id": "_:Nccc466ec1dc84504b96e21c56736f372"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg2048",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Ncce6377f57bd4b8c99bac30195612f21"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg2048.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N8645c6531a8c45f8aea132e945abbd87"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Sozomenus"
-      }
-    },
-    {
-      "@id": "_:N80cc60643f5f45b68b80f28de7606ad1"
-    },
-    {
-      "@id": "urn:cts:greekLit:tlg4018",
-      "@type": "http://chs.harvard.edu/xmlns/cts/CTSCollection",
-      "dts:capabilities": {
-        "@id": "_:Nba82eb49de4a4446a00f13ba02a83cd9"
-      },
-      "dts:child": {
-        "@id": "urn:cts:greekLit:tlg4018.tlg001"
-      },
-      "dts:metadata": {
-        "@id": "_:N9ea757965942468b93e700cce811dd2f"
-      },
-      "dts:model": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/textgroup"
-      },
-      "dts:parent": {
-        "@id": ""
-      },
-      "http://chs.harvard.edu/xmlns/cts/isA": {
-        "@id": "http://chs.harvard.edu/xmlns/cts/CTSCollection"
-      },
-      "rdfs:label": {
-        "@language": "eng",
-        "@value": "Asclepius"
-      }
-    },
-    {
-      "@id": "_:Nda2fa25c79a04719836ceabde191e077"
-    },
-    {
-      "@id": "_:N9d1210da2d6344789b5ef9a683ece150"
-    },
-    {
-      "@id": "_:N77f6c77c63a7450592e4be836b8c195b"
-    },
-    {
-      "@id": "_:Nee827128013b4b21aca9a955036ed197"
     }
   ]
 }
